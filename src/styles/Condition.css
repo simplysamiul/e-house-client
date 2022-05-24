@@ -1,0 +1,16 @@
+.condition-container{
+    padding: 80px;
+}
+.condition-content{
+    font-family: sans-serif;
+}
+.condition-content h1{
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.condition-content p, li{
+    color: #6e6e6e;
+}

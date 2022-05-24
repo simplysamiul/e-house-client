@@ -33,10 +33,10 @@ const CustomeMenu = () => {
                                 title="About-us"
                                 id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                <Link className='border-bottom' to="/faq">FAQ</Link>
-                               <Link className='border-bottom' to="/">POLICY</Link>
-                               <Link className='border-bottom' to="/">CONDITIONS</Link>
+                               <Link className='border-bottom' to="/policy">POLICY</Link>
+                               <Link className='border-bottom' to="/conditions">CONDITIONS</Link>
                             </NavDropdown>
-                            <NavLink to="/contact">Contact Us</NavLink>
+                            <NavLink to="/contactus">Contact Us</NavLink>
                             </Nav>
                         </Offcanvas.Body>
                         </Navbar.Offcanvas>
