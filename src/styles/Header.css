@@ -1,0 +1,119 @@
+/* Header */
+.header-area{
+    margin: 30px 50px;
+}
+.header-container{
+    padding: 25px 15px;
+    border: 2px solid lightgray;
+}
+.header-content{
+    display: grid;
+    grid-template-columns: 18% 77%;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+
+/* catagories cart */
+.categories-container{
+    border: 3px solid #0b5e91;
+}
+.categories-content h4{
+    font-size: 18px;
+    background: #e4e4e4;
+    padding: 12px 5px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: serif;
+    color: black;
+    background: #fcb800;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.categories-content a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    padding: 12px 5px;
+    background: #3078A6;
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.categories-content a:hover{
+    background: #0b5e91;
+}
+.responsive-categories{
+    display: none;
+}
+.catagories-icon{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* full catagories */
+.more-items-btn{
+    background: white;
+    border: none;
+    width: 100%;
+    padding: 12px 5px;
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+    margin: 0;
+    transition: 0.3s ease-in-out;
+}
+.more-items-btn:hover{
+    background: #fcb800;
+}
+.drawer-categories-header{
+    text-align: center;
+    font-family: serif;
+    border-bottom: 3px solid #0b5e91;
+    padding: 5px;
+}
+.drawer-categories-section{
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    grid-column-gap: 20px;
+}
+.drawer-categories-section a{
+    display: block;
+    text-decoration: none;
+     color: black;
+     font-size: 25px;
+     font-family: serif;
+     padding: 10px;
+     margin: 10px;
+     border-bottom: 2px solid lightgray;
+     transition: 0.3s ease-in-out;
+}
+.drawer-categories-section a:hover{
+    background: lightgray;
+}
+.catagories-drawer-icon{
+    margin-right: 10px;
+}
+/* Responsive Code */
+@media only screen and (max-width: 950px){
+    .header-content{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 40px;
+    }
+    .categories-content{
+        display: none;
+    }
+    .responsive-categories{
+        display: block;
+    }
+    .categories-container{
+        border: none;
+    }
+    .more-items-btn{
+        background: #fcb800;
+    }
+}
