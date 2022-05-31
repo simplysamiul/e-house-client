@@ -1,0 +1,20 @@
+/* Home arrival */
+.home-arivval-area{
+    margin: 100px 50px;
+}
+.home-arivval-container{
+    border: 2px solid lightgray;
+}
+.home-arivval-content{
+    padding: 60px 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 50px;
+}
+.arivval-all-carts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Arrival Slider */

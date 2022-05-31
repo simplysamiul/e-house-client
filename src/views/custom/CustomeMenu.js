@@ -4,14 +4,16 @@ import { Link, NavLink } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import '../../styles/Menubar.css';
 import CustomeMenuDrawer from './CustomeMenuDrawer';
+import { useSelector } from 'react-redux';
 
 const CustomeMenu = () => {
+    const cartList = useSelector((state) => state.cart);
     return (
         <div className='custome-menu-area'>
             {['lg'].map((expand) => (
                     <Navbar sticky="top" key={expand} expand={expand} className="mb-3">
                     <Container fluid>
-                        <Badge color="error" badgeContent={10} showZero>
+                        <Badge color="error" badgeContent={cartList.length} showZero>
                             <CustomeMenuDrawer />
                         </Badge>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

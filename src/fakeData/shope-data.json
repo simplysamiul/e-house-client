@@ -1,0 +1,2307 @@
+[
+    {
+        "product_id":1,
+        "product_name":"Timex Easy",
+        "review":"3",
+        "categories":"watch",
+        "price":"225",
+        "brand":"Jaeger",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Gold",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/h22y16k/watch-1.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/WWHPB01/watch-1-1.jpg",
+            "img_two": "https://i.ibb.co/pdGRQYp/watch-1-2.jpg"
+        }
+    },
+    {
+        "product_id":2,
+        "product_name":"Modern Wood",
+        "review":"4",
+        "categories":"watch",
+        "price":"255",
+        "brand":"Audemars",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Gold, Silicon, Titanium",
+        "main_img":"https://i.ibb.co/hLRJ5LT/watch-2.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/dGT6LZW/watch-2-1.jpg",
+            "img_two": "https://i.ibb.co/s1qcPd2/watch-2-2.jpg"
+        }
+    },
+    {
+        "product_id":3,
+        "product_name":"Terrazzo Florals",
+        "review":"3",
+        "categories":"watch",
+        "price":"235",
+        "brand":"Piaget ",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Gold",
+        "main_img":"https://i.ibb.co/VLsGxzz/watch-3.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/vHZDmjK/watch-3-1.jpg",
+            "img_two": "https://i.ibb.co/qBCrcs0/watch-3-2.jpg"
+        }
+    },
+    {
+        "product_id":4,
+        "product_name":"Roger Dubuis",
+        "review":"4",
+        "categories":"watch",
+        "price":"220",
+        "brand":"Cartier",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Cream, Gold, Black",
+        "main_img":"https://i.ibb.co/BnLV7K4/watch-4.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/FxTRGT7/watch-4-1.jpg",
+            "img_two": "https://i.ibb.co/LY36SzC/watch-1.jpg"
+        }
+    },
+    {
+        "product_id":5,
+        "product_name":"Space Watch",
+        "review":"2",
+        "categories":"watch",
+        "price":"290",
+        "brand":"Blancpain",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Red",
+        "main_img":"https://i.ibb.co/R0YQKPJ/watch-5.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/7YfKFGy/watch-5-1.jpg",
+            "img_two": "https://i.ibb.co/R0YQKPJ/watch-5.jpg"
+        }
+    },
+    {
+        "product_id":6,
+        "product_name":"Nixon Time Teller",
+        "review":"5",
+        "categories":"watch",
+        "price":"230",
+        "brand":"Harry Winston",
+        "weight":"0.8kg",
+        "condition" : "new",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, chocolate",
+        "main_img":"https://i.ibb.co/r4Fcpbr/watch-6.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/b7Mp3nR/watch-6-1.jpg",
+            "img_two": "https://i.ibb.co/dg4vw17/watch-6-2.jpg"
+        }
+    },
+    {
+        "product_id":7,
+        "product_name":"Olivia Burton",
+        "review":"3",
+        "categories":"watch",
+        "price":"235",
+        "brand":"Longines",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Blue, Blck, Gold",
+        "main_img":"https://i.ibb.co/YT5Mg9d/watch-7.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/BsVL6hz/watch-7-1.jpg",
+            "img_two": "https://i.ibb.co/2qwPXGq/watch-7-2.jpg"
+        }
+    },
+    {
+        "product_id":8,
+        "product_name":"Chronograph",
+        "review":"4",
+        "categories":"watch",
+        "price":"275",
+        "brand":"Zenith",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Red",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/LDKTySr/watch-8.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/HtVvwrz/watch-8-1.jpg",
+            "img_two": "https://i.ibb.co/LDKTySr/watch-8.jpg"
+        }
+    },
+    {
+        "product_id":9,
+        "product_name":"Military Watch",
+        "review":"3",
+        "categories":"watch",
+        "price":"260",
+        "brand":"Tudor",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Gold",
+        "main_img":"https://i.ibb.co/h22y16k/watch-1.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/hLRJ5LT/watch-2.jpg",
+            "img_two": "https://i.ibb.co/vHZDmjK/watch-3-1.jpg"
+        }
+    },
+    {
+        "product_id":10,
+        "product_name":"Timex Rainbow",
+        "review":"2",
+        "categories":"watch",
+        "price":"350",
+        "brand":"dp",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, chocolate",
+        "main_img":"https://i.ibb.co/CsTz65F/watch-10.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/zRJwRGG/watch-10-1.jpg",
+            "img_two": "https://i.ibb.co/r4Fcpbr/watch-6.jpg"
+        }
+    },
+    {
+        "product_id":11,
+        "product_name":"Classic",
+        "review":"5",
+        "categories":"watch",
+        "price":"280",
+        "brand":"Philippe",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Gold",
+        "main_img":"https://i.ibb.co/7Qr2tkv/watch-11.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/BsVL6hz/watch-7-1.jpg",
+            "img_two": "https://i.ibb.co/7Qr2tkv/watch-11.jpg"
+        }
+    },
+    {
+        "product_id":12,
+        "product_name":"Cocomi Rainbow",
+        "review":"3",
+        "categories":"watch",
+        "price":"185",
+        "brand":"Vacheron",
+        "weight":"0.8kg",
+        "dimensions":"35 50 40 cm",
+        "color":"White, Gold",
+        "main_img":"https://i.ibb.co/qdZCzTY/watch-12.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/7Qr2tkv/watch-11.jpg",
+            "img_two": "https://i.ibb.co/qdZCzTY/watch-12.jpg"
+        }
+    },
+    {
+        "product_id":13,
+        "product_name":"Timex Easy",
+        "review":"4",
+        "categories":"watch",
+        "price":"175",
+        "brand":"Jaeger",
+        "weight":"0.8kg",
+        "condition" : "new",
+        "dimensions":"35 50 40 cm",
+        "color":"Black, Gold",
+        "main_img":"https://i.ibb.co/h22y16k/watch-1.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/WWHPB01/watch-1-1.jpg",
+            "img_two": "https://i.ibb.co/pdGRQYp/watch-1-2.jpg"
+        }
+    },
+    {
+        "product_id":14,
+        "product_name":"S65UA Ultra WQHD",
+        "review":"4",
+        "categories":"monitor",
+        "price":"699",
+        "brand":"Samsung",
+        "inch":"34",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/sC4NJZW/monitor-14.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/wCtf7zQ/monitor-14-1.webp",
+            "img_two": "https://i.ibb.co/g3VB5Ph/monitor-14-2.webp"
+        }
+    },
+    {
+        "product_id":15,
+        "product_name":"SJ55W Ultra WQHD",
+        "review":"5",
+        "categories":"monitor",
+        "price":"329",
+        "brand":"Samsung",
+        "inch":"34",
+        "dimensions":"21:9 ratio",
+        "color":"Black",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/2P1cmdv/monitor-15.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/FmwTMKD/monitor-15-1.webp",
+            "img_two": "https://i.ibb.co/2cbVrd1/monitor-15-2.webp"
+        }
+    },
+    {
+        "product_id":16,
+        "product_name":"UJ590 UHD",
+        "review":"3",
+        "categories":"monitor",
+        "price":"449",
+        "brand":"Samsung",
+        "inch":"32",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/k6LVHVC/monitor-26.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/M7bZ9dY/monitor-26-1.webp",
+            "img_two": "https://i.ibb.co/wWcsj8t/monitor-26-2.webp"
+        }
+    },
+    {
+        "product_id":17,
+        "product_name":"S60A QHD",
+        "review":"4",
+        "categories":"monitor",
+        "price":"429",
+        "brand":"Samsung",
+        "inch":"32",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/VT41MX8/monitor-17.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/9rn0Nsc/monitor-17-1.webp",
+            "img_two": "https://i.ibb.co/k5yVsCk/monitor-17-2.webp"
+        }
+    },
+    {
+        "product_id":18,
+        "product_name":"S60UA QHD",
+        "review":"3",
+        "categories":"monitor",
+        "price":"299",
+        "brand":"Samsung",
+        "inch":"32",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/QdKhNx4/monitor-18.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rwG6GWL/monitor-18-1.webp",
+            "img_two": "https://i.ibb.co/Sw2XRTt/monitor-18-2.webp"
+        }
+    },
+    {
+        "product_id":19,
+        "product_name":"Odyssey G9",
+        "review":"5",
+        "categories":"monitor",
+        "price":"15999",
+        "brand":"Samsung",
+        "inch":"49",
+        "condition" : "new",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/vDZnhPQ/monitor-19.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/VmB0hxN/monitor-19-1.webp",
+            "img_two": "https://i.ibb.co/LrF1hBT/monitor-19-2.webp"
+        }
+    },
+    {
+        "product_id":20,
+        "product_name":"UR50 UHD",
+        "review":"3",
+        "categories":"monitor",
+        "price":"249",
+        "brand":"Samsung",
+        "inch":"34",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/XJbDnpz/monitor-20.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rcM66LS/monitor-20-1.webp",
+            "img_two": "https://i.ibb.co/6Z31qbs/monitor-20-2.webp"
+        }
+    },
+    {
+        "product_id":21,
+        "product_name":"S80A UHD",
+        "review":"2",
+        "categories":"monitor",
+        "price":"259",
+        "brand":"Samsung",
+        "inch":"27",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/bbFdy5D/monitor-21.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/GtsZbQf/monitor-21-1.webp",
+            "img_two": "https://i.ibb.co/Px9mYcH/monitor-21-2.webp"
+        }
+    },
+    {
+        "product_id":22,
+        "product_name":"S70A UHD",
+        "review":"3",
+        "categories":"monitor",
+        "price":"269",
+        "brand":"Samsung",
+        "inch":"32",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/0mCWdW7/monitor-22.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/4tVX4PQ/monitor-22-1.webp",
+            "img_two": "https://i.ibb.co/0mCWdW7/monitor-22.webp"
+        }
+    },
+    {
+        "product_id":23,
+        "product_name":"UJ590 UHD",
+        "review":"3",
+        "categories":"monitor",
+        "price":"449",
+        "brand":"Samsung",
+        "inch":"32",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/k6LVHVC/monitor-26.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/M7bZ9dY/monitor-26-1.webp",
+            "img_two": "https://i.ibb.co/wWcsj8t/monitor-26-2.webp"
+        }
+    },
+    {
+        "product_id":24,
+        "product_name":"S80UA UHD",
+        "review":"2",
+        "categories":"monitor",
+        "price":"199",
+        "brand":"Samsung",
+        "inch":"28",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/Jj7qs20/monitor-24.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/BjF472G/monitor-24-1.webp",
+            "img_two": "https://i.ibb.co/kyKGNnP/monitor-24-2.webp"
+        }
+    },
+    {
+        
+        "product_id":25,
+        "product_name":"S60UA QHD",
+        "review":"3",
+        "categories":"monitor",
+        "price":"299",
+        "brand":"Samsung",
+        "inch":"32",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/QdKhNx4/monitor-18.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rwG6GWL/monitor-18-1.webp",
+            "img_two": "https://i.ibb.co/Sw2XRTt/monitor-18-2.webp"
+        }
+    },
+    {
+        "product_id":26,
+        "product_name":"Dell 14 Portable",
+        "review":"4",
+        "categories":"monitor",
+        "price":"399",
+        "brand":"Dell",
+        "inch":"34",
+        "dimensions":"1000R curvature",
+        "color":"Black",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/hYJsBst/monitor-16.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/Kqx8Zdw/monitor-16-1.jpg",
+            "img_two": "https://i.ibb.co/hYJsBst/monitor-16.jpg"
+        }
+    },
+    {
+        "product_id":27,
+        "product_name":"Adventure Laptop Bags",
+        "review":"3",
+        "categories":"bages",
+        "price":"199",
+        "brand":"Brighton",
+        "material":"Synthetic",
+        "color":"Black, Blue",
+        "main_img":"https://i.ibb.co/RD3NX1x/bag-27.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/8PW3wW5/bag-27-1.jpg",
+            "img_two": "https://i.ibb.co/nBrcSQB/bag-27-2.jpg"
+        }
+    },
+    {
+        "product_id":28,
+        "product_name":"Backpack Luggage",
+        "review":"4",
+        "categories":"bages",
+        "price":"259",
+        "brand":"Botkier",
+        "material":"Polymar",
+        "color":"Orange, Yellow, Blue",
+        "main_img":"https://i.ibb.co/DWcQSQN/bag-28.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/1mgzjFq/bag-28-1.jpg",
+            "img_two": "https://i.ibb.co/MR6zKWk/bag-28-2.jpg"
+        }
+    },
+    {
+        "product_id":29,
+        "product_name":"Foldable Waterproof",
+        "review":"5",
+        "categories":"bages",
+        "price":"399",
+        "brand":"Burberry",
+        "material":"Denim",
+        "color":"Black, Yellow, Red",
+        "main_img":"https://i.ibb.co/fQ5PWJh/bag-29-2.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/4g49cy2/bag-29.jpg",
+            "img_two": "https://i.ibb.co/pZQkZrn/bag-29-1.jpg"
+        }
+    },
+    {
+        "product_id":30,
+        "product_name":"Check-in Luggage",
+        "review":"3",
+        "categories":"bages",
+        "price":"565",
+        "brand":"Celine",
+        "material":"Metal",
+        "color":"Yellow, Red, Blue",
+        "main_img":"https://i.ibb.co/dDWhWct/bag-30.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/wQCpMSg/bag-30-1.jpg",
+            "img_two": "https://i.ibb.co/CKtr3vM/bag30-2.jpg"
+        }
+    },
+    {
+        "product_id":31,
+        "product_name":"Purple Duffel bag",
+        "review":"2",
+        "categories":"bages",
+        "price":"435",
+        "brand":"Chanel",
+        "material":"Leather",
+        "color":"Purpel, Black, Blue",
+        "main_img":"https://i.ibb.co/s6yqgxP/bag-31.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/CMYKyf5/bag-31-1.jpg",
+            "img_two": "https://i.ibb.co/090njGm/bag-31-2.jpg"
+        }
+    },
+    {
+        "product_id":32,
+        "product_name":"Duffle Bags",
+        "review":"3",
+        "categories":"bages",
+        "price":"329",
+        "brand":"Chloé",
+        "material":"Nylon",
+        "color":"Black, Red, Blue",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/JRfcwNd/bag-32.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/bB5FwNv/bag-32-1.jpg",
+            "img_two": "https://i.ibb.co/0BnZYD2/bag-32-2.jpg"
+        }
+    },
+    {
+        "product_id":33,
+        "product_name":"ALIQUAM LOBORTIS",
+        "review":"4",
+        "categories":"bages",
+        "price":"189",
+        "brand":"Coach",
+        "material":"leather",
+        "color":"Orange, White",
+        "main_img":"https://i.ibb.co/Qd1xDFM/bag-33.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/bQqxMdh/bag-33-1.jpg",
+            "img_two": "https://i.ibb.co/SQ27mgj/bag-33-2.jpg"
+        }
+    },
+    {
+        "product_id":34,
+        "product_name":"PHASELLUS VEL",
+        "review":"5",
+        "categories":"bages",
+        "price":"270",
+        "brand":"Cole Haan",
+        "material":"leather",
+        "color":"Orange, Chocolate",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/V2XZtHR/bag-34.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/m5RNgYG/bag-34-1.jpg",
+            "img_two": "https://i.ibb.co/jDXx9mB/bag-34-2.jpg"
+        }
+    },
+    {
+        "product_id":35,
+        "product_name":"Adventure Laptop Bags",
+        "review":"3",
+        "categories":"bages",
+        "price":"199",
+        "brand":"Brighton",
+        "material":"Synthetic",
+        "color":"Black, Blue",
+        "main_img":"https://i.ibb.co/RD3NX1x/bag-27.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/8PW3wW5/bag-27-1.jpg",
+            "img_two": "https://i.ibb.co/nBrcSQB/bag-27-2.jpg"
+        }
+    },
+    {
+        "product_id":36,
+        "product_name":"Adventure Laptop Bags",
+        "review":"2",
+        "categories":"bages",
+        "price":"199",
+        "brand":"Brighton",
+        "material":"Synthetic",
+        "color":"Black, Blue",
+        "main_img":"https://i.ibb.co/RD3NX1x/bag-27.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/8PW3wW5/bag-27-1.jpg",
+            "img_two": "https://i.ibb.co/nBrcSQB/bag-27-2.jpg"
+        }
+    },
+    {
+        "product_id":37,
+        "product_name":"School Backpack",
+        "review":"4",
+        "categories":"bages",
+        "price":"195",
+        "brand":"Fendi",
+        "material":"Polymar ",
+        "color":"Black, Blue, green",
+        "main_img":"https://i.ibb.co/r4xykyY/bag-37.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/0B2fhrz/bag-37-1.jpg",
+            "img_two": "https://i.ibb.co/gTMHFw3/bag-37-2.jpg"
+        }
+    },
+    {
+        
+        "product_id":38,
+        "product_name":"Purple Duffel bag",
+        "review":"2",
+        "categories":"bages",
+        "price":"435",
+        "brand":"Chanel",
+        "material":"Leather",
+        "color":"Purpel, Black, Blue",
+        "main_img":"https://i.ibb.co/s6yqgxP/bag-31.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/CMYKyf5/bag-31-1.jpg",
+            "img_two": "https://i.ibb.co/090njGm/bag-31-2.jpg"
+        }
+    },
+    {
+        "product_id":39,
+        "product_name":"Foldable Waterproof",
+        "review":"5",
+        "categories":"bages",
+        "price":"399",
+        "brand":"Burberry",
+        "material":"Denim",
+        "color":"Black, Yellow, Red",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/fQ5PWJh/bag-29-2.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/4g49cy2/bag-29.jpg",
+            "img_two": "https://i.ibb.co/pZQkZrn/bag-29-1.jpg"
+        }
+    },
+    {
+        "product_id":40,
+        "product_name":"Smart Phone",
+        "review":"3",
+        "categories":"phone",
+        "price":"280",
+        "brand":"Blackberry",
+        "inch": "5.5 inch",
+        "material":"Metal",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/HdrYXyW/phone-40.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sKwv9fz/phone-40-1.jpg",
+            "img_two": "https://i.ibb.co/xMWXKVb/phone-40-2.jpg"
+        }
+    },
+    {
+        "product_id":41,
+        "product_name":"I Phone",
+        "review":"4",
+        "categories":"phone",
+        "price":"380",
+        "brand":"Apple",
+        "inch": "5.5 inch",
+        "material":"Metal",
+        "color":"Rose Pink, mat Black",
+        "main_img":"https://i.ibb.co/7X4hj6r/phone-41.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/HdrYXyW/phone-40.jpg",
+            "img_two": "https://i.ibb.co/7X4hj6r/phone-41.jpg"
+        }
+    },
+    {
+        "product_id":42,
+        "product_name":"IPhone",
+        "review":"3",
+        "categories":"phone",
+        "price":"380",
+        "brand":"Apple",
+        "inch": "6.5 inch",
+        "material":"Metal",
+        "color":"Black, Silver",
+        "main_img":"https://i.ibb.co/wdjhT9f/phone-42.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/yp2zBnC/phone-42-1.jpg",
+            "img_two": "https://i.ibb.co/wdjhT9f/phone-42.jpg"
+        }
+    },
+    {
+        "product_id":43,
+        "product_name":"Galaxy Tab",
+        "review":"3",
+        "categories":"phone",
+        "price":"580",
+        "brand":"Samsung",
+        "inch": "8.5 inch",
+        "material":"Polymar",
+        "color":"Golden",
+        "main_img":"https://i.ibb.co/5GK6zFM/phone-43.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/tLpWVcf/phone-43-1.png",
+            "img_two": "https://i.ibb.co/KVQ5RDt/phone-43-2.png"
+        }
+    },
+    {
+        "product_id":44,
+        "product_name":"Apple Ipad",
+        "review":"4",
+        "categories":"phone",
+        "price":"780",
+        "brand":"Apple",
+        "inch": "8.5 inch",
+        "material":"Metal",
+        "color":"White",
+        "main_img":"https://i.ibb.co/gMCgBSF/phone-44.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/80Hg7JH/phone-44-1.png",
+            "img_two": "https://i.ibb.co/80Hg7JH/phone-44-1.png"
+        }
+    },
+    {
+        "product_id":45,
+        "product_name":"Asus Zenpad",
+        "review":"4",
+        "categories":"phone",
+        "price":"980",
+        "brand":"Asus",
+        "inch": "8.5 inch",
+        "material":"Metal",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/5hLkfJj/phone-45.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/FX0bT05/phone-45-1.png",
+            "img_two": "https://i.ibb.co/bbtVNwh/phone-45-2.png"
+        }
+    },
+    {
+        "product_id":46,
+        "product_name":"Asus 10.1 Zenpad",
+        "review":"5",
+        "categories":"phone",
+        "price":"1080",
+        "brand":"Asus",
+        "inch": "8.5 inch",
+        "material":"Metal",
+        "color":"Silver",
+        "main_img":"https://i.ibb.co/QpsnNF9/phone-46.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/2gvT9yR/phone-46-1.png",
+            "img_two": "https://i.ibb.co/QpsnNF9/phone-46.png"
+        }
+    },
+    {
+        "product_id":47,
+        "product_name":"Apple Ipad",
+        "review":"3",
+        "categories":"phone",
+        "price":"1169",
+        "brand":"Apple",
+        "inch": "10.5 inch",
+        "material":"Metal",
+        "color":"Silver",
+        "main_img":"https://i.ibb.co/QHskJ2G/phone-47.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/khs6YLf/phone-47-1.png",
+            "img_two": "https://i.ibb.co/mhsmP4r/phone-47-2.png"
+        }
+    },
+    {
+        "product_id":48,
+        "product_name":"Smart Phone",
+        "review":"3",
+        "categories":"phone",
+        "price":"280",
+        "brand":"Blackberry",
+        "inch": "5.5 inch",
+        "material":"Metal",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/HdrYXyW/phone-40.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sKwv9fz/phone-40-1.jpg",
+            "img_two": "https://i.ibb.co/xMWXKVb/phone-40-2.jpg"
+        }
+    },
+    {
+        "product_id":49,
+        "product_name":"I Phone",
+        "review":"4",
+        "categories":"phone",
+        "price":"380",
+        "brand":"Apple",
+        "inch": "5.5 inch",
+        "material":"Metal",
+        "sale":"best",
+        "color":"Rose Pink, mat Black",
+        "main_img":"https://i.ibb.co/7X4hj6r/phone-41.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/HdrYXyW/phone-40.jpg",
+            "img_two": "https://i.ibb.co/7X4hj6r/phone-41.jpg"
+        }
+    },
+    {
+        "product_id":50,
+        "product_name":"Smart Phone",
+        "review":"3",
+        "categories":"phone",
+        "price":"280",
+        "brand":"Blackberry",
+        "inch": "5.5 inch",
+        "material":"Metal",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/fQ5PWJh/bag-29-2.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/4g49cy2/bag-29.jpg",
+            "img_two": "https://i.ibb.co/pZQkZrn/bag-29-1.jpg"
+        }
+    },
+    {
+        "product_id":51,
+        "product_name":"Htc Phone",
+        "review":"2",
+        "categories":"phone",
+        "price":"259",
+        "brand":"HTC",
+        "inch": "5.3 inch",
+        "material":"Metal",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/sKwv9fz/phone-40-1.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/7X4hj6r/phone-41.jpg",
+            "img_two": "https://i.ibb.co/sKwv9fz/phone-40-1.jpg"
+        }
+    },
+    {
+        "product_id":52,
+        "product_name":"Asus Zenpad",
+        "review":"4",
+        "categories":"phone",
+        "price":"980",
+        "brand":"Asus",
+        "inch": "8.5 inch",
+        "material":"Metal",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/5hLkfJj/phone-45.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/FX0bT05/phone-45-1.png",
+            "img_two": "https://i.ibb.co/bbtVNwh/phone-45-2.png"
+        }
+    },
+    {
+        "product_id":53,
+        "product_name":"Ottoman Chair",
+        "review":"4",
+        "categories":"furniture",
+        "price":"600",
+        "type":"Chair",
+        "material":"Leather, Wood",
+        "color":"Chocolate",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/vkTx1VL/furniture-53.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/s2BQfSF/furniture-53-1.jpg",
+            "img_two": "https://i.ibb.co/ynrQdk8/furtinure-53-2.jpg"
+        }
+    },
+    {
+        "product_id":54,
+        "product_name":"Kime Chair",
+        "review":"3",
+        "categories":"furniture",
+        "price":"280",
+        "type":"Chair",
+        "material":"Wood",
+        "color":"Birch",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/hYy8rM0/furniture-54.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/dDhHs2s/furniture-54-1.png",
+            "img_two": "https://i.ibb.co/8Pv4fpM/furniture-54-2.png"
+        }
+    },
+    {
+        "product_id":55,
+        "product_name":"Bed Obsession",
+        "review":"5",
+        "categories":"furniture",
+        "price":"1999",
+        "type":"Bed",
+        "material":"Antique",
+        "color":"Kempas",
+        "main_img":"https://i.ibb.co/th28CCJ/furniture-55.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/Cwtfb85/furniture-55-1.jpg",
+            "img_two": "https://i.ibb.co/th28CCJ/furniture-55.jpg"
+        }
+    },
+    {
+        "product_id":56,
+        "product_name":"Bed Cory",
+        "review":"4",
+        "categories":"furniture",
+        "price":"1280",
+        "type":"Bed",
+        "material":"Antique",
+        "color":"Antique",
+        "main_img":"https://i.ibb.co/vHnXJ7L/furniture-56.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/7y8BJ7r/furniture-56-1.jpg",
+            "img_two": "https://i.ibb.co/vHnXJ7L/furniture-56.jpg"
+        }
+    },
+    {
+        "product_id":57,
+        "product_name":"Bed Sublime",
+        "review":"5",
+        "categories":"furniture",
+        "price":"1499",
+        "type":"Bed",
+        "material":"Metal",
+        "color":"Antique",
+        "main_img":"https://i.ibb.co/WWJgwHM/furniture-57.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/hmY9dQX/furniture-57-1.jpg",
+            "img_two": "https://i.ibb.co/WWJgwHM/furniture-57.jpg"
+        }
+    },
+    {
+        "product_id":58,
+        "product_name":"Wardrobe Kingston",
+        "review":"3",
+        "categories":"furniture",
+        "price":"790",
+        "type":"Wardrobe",
+        "material":"Antique",
+        "color":"Natural Texture",
+        "main_img":"https://i.ibb.co/ZhnGpLT/furniture-58.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/2701YR6/furniture-58-1.jpg",
+            "img_two": "https://i.ibb.co/L13m0jJ/furniture-58-2.jpg"
+        }
+    },
+    {
+        "product_id":59,
+        "product_name":"Wardrobe Rhone",
+        "review":"5",
+        "categories":"furniture",
+        "price":"990",
+        "type":"Wardrobe",
+        "material":"ASH",
+        "color":"ASH",
+        "main_img":"https://i.ibb.co/VL7vffp/furniture-59.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/PCQVX0Y/furniture-59-1.jpg",
+            "img_two": "https://i.ibb.co/jkmYdFP/furniture-59-2.jpg"
+        }
+    },
+    {
+        "product_id":60,
+        "product_name":"Dressing Table Paris",
+        "review":"3",
+        "categories":"furniture",
+        "price":"580",
+        "type":"Dressing Table",
+        "material":"Antique",
+        "color":"Antique Natural",
+        "main_img":"https://i.ibb.co/jVnZz81/furniture-60.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/gy2VSdr/furniture-60-1.jpg",
+            "img_two": "https://i.ibb.co/6t6n6Gr/furniture-60-2.jpg"
+        }
+    },
+    {
+        "product_id":61,
+        "product_name":"TV Cabinet Chopin",
+        "review":"4",
+        "categories":"furniture",
+        "price":"499",
+        "type":"TV Cabinet",
+        "material":"Antique",
+        "color":"Antique Natural",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/tp7cz9V/furniture-61.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/4FV8DvW/furniture-61-1.jpg",
+            "img_two": "https://i.ibb.co/qsgV723/furniture-61-2.jpg"
+        }
+    },
+    {
+        "product_id":62,
+        "product_name":"Mattress Zambezi",
+        "review":"3",
+        "categories":"furniture",
+        "price":"180",
+        "type":"Mattress",
+        "material":"Fabric",
+        "color":"Grey",
+        "main_img":"https://i.ibb.co/xXdd54z/furniture-62.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/xXdd54z/furniture-62.jpg",
+            "img_two": "https://i.ibb.co/xXdd54z/furniture-62.jpg"
+        }
+    },
+    {
+        "product_id":63,
+        "product_name":"Reading Table Dennis",
+        "review":"5",
+        "categories":"furniture",
+        "price":"350",
+        "type":"Reading Table",
+        "material":"Antique",
+        "color":"Antique Natural",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/tsMdZJ4/furniture-63.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/2ncRprk/furniture-63-2.jpg",
+            "img_two": "https://i.ibb.co/dPyqKrc/furniture-63-1.jpg"
+        }
+    },
+    {
+        "product_id":64,
+        "product_name":"Dining Irving",
+        "review":"3",
+        "categories":"furniture",
+        "price":"1250",
+        "type":"Dining",
+        "material":"Antique",
+        "color":"Antique Natural",
+        "main_img":"https://i.ibb.co/Mp4HJdg/furtinute-64.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/ZgtYT75/furniture-64-1.jpg",
+            "img_two": "https://i.ibb.co/Mp4HJdg/furtinute-64.jpg"
+        }
+    },
+    {
+        "product_id":65,
+        "product_name":"Dinner Wagon",
+        "review":"4",
+        "categories":"furniture",
+        "price":"1899",
+        "type":"Dinner",
+        "material":"Antique",
+        "color":"Antique Natural",
+        "main_img":"https://i.ibb.co/2kHLsDf/furtinure-65.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/PzqWq7h/furniture-65-1.jpg",
+            "img_two": "https://i.ibb.co/0YqCwst/furniture-65-2.jpg"
+        }
+    },
+    {
+        "product_id":66,
+        "product_name":"Boxing Gloves",
+        "review":"3",
+        "categories":"sports",
+        "price":"150",
+        "type":"Boxing Gloves",
+        "color":"Green, Red",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/CzX6kh3/sport-66.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/vxBfdST/sport-66-1.jpg",
+            "img_two": "https://i.ibb.co/CzX6kh3/sport-66.jpg"
+        }
+    },
+    {
+        "product_id":67,
+        "product_name":"Skates boots",
+        "review":"5",
+        "categories":"sports",
+        "price":"180",
+        "type":"Skates boots",
+        "color":"Sky Blue",
+        "main_img":"https://i.ibb.co/sbCYdWD/sport-67.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sbCYdWD/sport-67.jpg",
+            "img_two": "https://i.ibb.co/sbCYdWD/sport-67.jpg"
+        }
+    },
+    {
+        "product_id":68,
+        "product_name":"Sports Shoe",
+        "review":"3",
+        "categories":"sports",
+        "price":"200",
+        "type":"Shoe",
+        "color":"Sky Blue, Grey",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/kH7SPMZ/sport-68.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/9vkwh4H/sport-68-1.jpg",
+            "img_two": "https://i.ibb.co/kH7SPMZ/sport-68.jpg"
+        }
+    },
+    {
+        "product_id":69,
+        "product_name":"Cricket Set",
+        "review":"4",
+        "categories":"sports",
+        "price":"1200",
+        "type":"Cricket Set",
+        "color":"Wood",
+        "main_img":"https://i.ibb.co/pfhyWSy/bat.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/pfhyWSy/bat.jpg",
+            "img_two": "https://i.ibb.co/pfhyWSy/bat.jpg"
+        }
+    },
+    {
+        "product_id":70,
+        "product_name":"Skipping Rope",
+        "review":"3",
+        "categories":"sports",
+        "price":"200",
+        "type":"Skipping Rope",
+        "color":"Green",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/nkwnPWY/sport-70.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/nkwnPWY/sport-70.jpg",
+            "img_two": "https://i.ibb.co/nkwnPWY/sport-70.jpg"
+        }
+    },
+    {
+        "product_id":71,
+        "product_name":"Shuttle Racquet",
+        "review":"4",
+        "categories":"sports",
+        "price":"129",
+        "condition" : "new",
+        "type":"Shuttle Racquet",
+        "color":"Sky Blue, Red",
+        "main_img":"https://i.ibb.co/ZmppsRC/sports-71.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/LSTpyCY/sports-71-1.jpg",
+            "img_two": "https://i.ibb.co/SXV2ypH/sports-71-2.jpg"
+        }
+    },
+    {
+        "product_id":72,
+        "product_name":"Football",
+        "review":"3",
+        "categories":"sports",
+        "condition" : "new",
+        "price":"150",
+        "type":"Football",
+        "color":"White, Yellow",
+        "main_img":"https://i.ibb.co/jrb4jcF/sport-72.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/QP2qqDR/sport-72-1.jpg",
+            "img_two": "https://i.ibb.co/jrb4jcF/sport-72.jpg"
+        }
+    },
+    {
+        "product_id":73,
+        "product_name":"Golf Steel Set",
+        "review":"4",
+        "categories":"sports",
+        "price":"1199",
+        "type":"Golf Steel",
+        "color":"Black",
+        "main_img":"https://i.ibb.co/DkvG6Z4/sport-73.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/WBXcrr6/sport-73-1.jpg",
+            "img_two": "https://i.ibb.co/DkvG6Z4/sport-73.jpg"
+        }
+    },
+    {
+        "product_id":74,
+        "product_name":"Trek Bicycle",
+        "review":"5",
+        "categories":"sports",
+        "price":"1270",
+        "type":"Bicycle",
+        "color":"Black, Sky Blue",
+        "main_img":"https://i.ibb.co/pQw0144/sport-74.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/JKv266M/sport-74-1.png",
+            "img_two": "https://i.ibb.co/pQw0144/sport-74.png"
+        }
+    },
+    {
+        "product_id":75,
+        "product_name":"Elite Carbon Bicycle",
+        "review":"3",
+        "categories":"sports",
+        "price":"999",
+        "type":"Bicycle",
+        "color":"Blue, Black",
+        "main_img":"https://i.ibb.co/2kqgnvn/sport-75.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/tM26T1Q/sport-75-1.png",
+            "img_two": "https://i.ibb.co/2kqgnvn/sport-75.png"
+        }
+    },
+    {
+        "product_id":76,
+        "product_name":"Ice Skating Suit",
+        "review":"2",
+        "categories":"sports",
+        "price":"720",
+        "type":"Skating Suit",
+        "color":"Red",
+        "main_img":"https://i.ibb.co/6RjY1Ww/sport-76.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/6RjY1Ww/sport-76.jpg",
+            "img_two": "https://i.ibb.co/6RjY1Ww/sport-76.jpg"
+        }
+    },
+    {
+        "product_id":77,
+        "product_name":"Skating Glass",
+        "review":"3",
+        "categories":"sports",
+        "price":"150",
+        "type":"Glass",
+        "color":"Pink",
+        "main_img":"https://i.ibb.co/s26pr1W/sport-77.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/s26pr1W/sport-77.jpg",
+            "img_two": "https://i.ibb.co/s26pr1W/sport-77.jpg"
+        }
+    },
+    {
+        "product_id":78,
+        "product_name":"Sports Shoe",
+        "review":"2",
+        "categories":"sports",
+        "price":"200",
+        "type":"Shoe",
+        "color":"Sky Blue, Grey",
+        "main_img":"https://i.ibb.co/kH7SPMZ/sport-68.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/9vkwh4H/sport-68-1.jpg",
+            "img_two": "https://i.ibb.co/kH7SPMZ/sport-68.jpg"
+        }
+    },
+    {
+        "product_id":79 ,
+        "product_name":"Zenbook S",
+        "review":"4",
+        "categories":"laptop",
+        "price":"1800",
+        "type":"Business Laptop",
+        "processor":"11th Gen Intel® Core™ i7 processor",
+        "graphics":"Intel® Iris Xe Graphics",
+        "carry":"Slim and compact for easy portability",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/3RPrvsW/laptop-79.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sgd44Nj/laptop-79-1.png",
+            "img_two": "https://i.ibb.co/xSFvKBZ/laptop-79-2.png"
+        }
+    },
+    {
+        "product_id":80 ,
+        "product_name":"Zenbook Flip",
+        "review":"3",
+        "categories":"laptop",
+        "price":"2199",
+        "type":"Business Laptop",
+        "processor":"Up to 11th Gen Intel® Core™ i7",
+        "graphics":"Intel® Iris® Xe Graphics",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/Wk052xZ/laptop-80.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/tBCgRnm/laptop-80-1.png",
+            "img_two": "https://i.ibb.co/JsqWPcM/laptop-80-2.png"
+        }
+    },
+    {
+        "product_id":81 ,
+        "product_name":"Vivobook Pro 14X",
+        "review":"4",
+        "categories":"laptop",
+        "price":"1600",
+        "type":"Business Laptop",
+        "processor":"Up to AMD Ryzen™ 7 5800H Mobile Processor",
+        "graphics":"Up to NVIDIA® GeForce® RTX 3050",
+        "carry":"Slim and compact for easy portability",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/0mrwSvX/laptop-81.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/N3hdy0H/laptop-81-1.png",
+            "img_two": "https://i.ibb.co/8PwjjzJ/laptop-81-2.png"
+        }
+    },
+    {
+        "product_id":82 ,
+        "product_name":"Vivobook Flip",
+        "review":"3",
+        "categories":"laptop",
+        "price":"1570",
+        "type":"Business Laptop",
+        "condition" : "new",
+        "processor":"Up to AMD Ryzen™ 7 4000 series",
+        "graphics":"Up to NVIDIA® GeForce® RTX 3050",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/ZKnfdtD/laptop-82.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rZ4zqpX/laptop-82-2.png",
+            "img_two": "https://i.ibb.co/XjDmV2F/laptop-82-1.png"
+        }
+    },
+    {
+        "product_id":83 ,
+        "product_name":"ASUS M515 ",
+        "review":"2",
+        "categories":"laptop",
+        "price":"1269",
+        "type":"Business Laptop",
+        "processor":"Up to AMD Ryzen™ 5 5500 series",
+        "graphics":"Up to AMD Radeon™ graphics",
+        "carry":"Slim and compact for easy portability",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/MSxwRqr/laptop-83.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/S7B9wpn/laptop-83-2.png",
+            "img_two": "https://i.ibb.co/Qvwv6CM/laptop-83-1.png"
+        }
+    },
+    {
+        "product_id":84 ,
+        "product_name":"ASUS BR1100F",
+        "review":"3",
+        "categories":"laptop",
+        "price":"1100",
+        "type":"Business Laptop",
+        "processor":"11th Gen Intel® Core™ i7 processor",
+        "graphics":"Intel® Iris Xe Graphics",
+        "carry":"Slim and compact for easy portability",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/0mrwSvX/laptop-81.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/0mrwSvX/laptop-81.png",
+            "img_two": "https://i.ibb.co/0mrwSvX/laptop-81.png"
+        }
+    },
+    {
+        "product_id":85 ,
+        "product_name":"Zenbook S",
+        "review":"4",
+        "categories":"laptop",
+        "price":"1800",
+        "type":"Business Laptop",
+        "processor":"11th Gen Intel® Core™ i7 processor",
+        "graphics":"Intel® Iris Xe Graphics",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/3RPrvsW/laptop-79.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sgd44Nj/laptop-79-1.png",
+            "img_two": "https://i.ibb.co/xSFvKBZ/laptop-79-2.png"
+        }
+    },
+    {
+        "product_id":86 ,
+        "product_name":"Vivobook S14 S433",
+        "review":"5",
+        "categories":"laptop",
+        "price":"1999",
+        "type":"Business Laptop",
+        "processor":"Up to 11th Intel® Core™ i7 processor",
+        "graphics":"Up to NVIDIA® GeForce® MX350",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/W5LXcv6/laptop-86.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sWKQVPM/laptop-86-1.png",
+            "img_two": "https://i.ibb.co/C0hfXN8/laptop-86-2.png"
+        }
+    },
+    {
+        "product_id":87 ,
+        "product_name":"Vivobook S15",
+        "review":"3",
+        "categories":"laptop",
+        "price":"1590",
+        "type":"Business Laptop",
+        "processor":"Up to 11th Intel® Core™ i7 processor",
+        "graphics":"Up to NVIDIA® GeForce® MX350",
+        "carry":"Slim and compact for easy portability",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/YyJBQfT/laptop-87.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/CmjwvwZ/laptop-87-1.png",
+            "img_two": "https://i.ibb.co/DG1ry4S/laptop-87-2.png"
+        }
+    },
+    {
+        "product_id":88,
+        "product_name":"ASUS M515 ",
+        "review":"2",
+        "categories":"laptop",
+        "price":"1269",
+        "type":"Business Laptop",
+        "processor":"Up to AMD Ryzen™ 5 5500 series",
+        "graphics":"Up to AMD Radeon™ graphics",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/MSxwRqr/laptop-83.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/S7B9wpn/laptop-83-2.png",
+            "img_two": "https://i.ibb.co/Qvwv6CM/laptop-83-1.png"
+        }
+    },
+    {
+        "product_id":89 ,
+        "product_name":"Zenbook S",
+        "review":"4",
+        "categories":"laptop",
+        "price":"1800",
+        "condition" : "new",
+        "type":"Business Laptop",
+        "processor":"11th Gen Intel® Core™ i7 processor",
+        "graphics":"Intel® Iris Xe Graphics",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/3RPrvsW/laptop-79.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/sgd44Nj/laptop-79-1.png",
+            "img_two": "https://i.ibb.co/xSFvKBZ/laptop-79-2.png"
+        }
+    },
+    {
+        "product_id":90,
+        "product_name":"Vivobook Flip",
+        "review":"3",
+        "categories":"laptop",
+        "price":"1570",
+        "type":"Business Laptop",
+        "processor":"Up to AMD Ryzen™ 7 4000 series",
+        "graphics":"Up to NVIDIA® GeForce® RTX 3050",
+        "carry":"Slim and compact for easy portability",
+        "main_img":"https://i.ibb.co/ZKnfdtD/laptop-82.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rZ4zqpX/laptop-82-2.png",
+            "img_two": "https://i.ibb.co/XjDmV2F/laptop-82-1.png"
+        }
+    },
+    {
+        "product_id":91,
+        "product_name":"Baby nibble",
+        "review":"3",
+        "categories":"baby",
+        "price":"59",
+        "type":"Baby Accessories",
+        "color":"Blue",
+        "main_img":"https://i.ibb.co/wspns8B/baby-91.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/wspns8B/baby-91.jpg",
+            "img_two": "https://i.ibb.co/wspns8B/baby-91.jpg"
+        }
+    },
+    {
+        "product_id":92,
+        "product_name":"Back belt shoe",
+        "review":"4",
+        "categories":"baby",
+        "price":"99",
+        "type":"Baby Accessories",
+        "color":"Chocolate",
+        "main_img":"https://i.ibb.co/nPkpgpj/baby-92.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/nPkpgpj/baby-92.jpg",
+            "img_two": "https://i.ibb.co/nPkpgpj/baby-92.jpg"
+        }
+    },
+    {
+        "product_id":93,
+        "product_name":"Woolen cap",
+        "review":"3",
+        "categories":"baby",
+        "price":"39",
+        "type":"Baby Accessories",
+        "color":"Blue, Pink",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/mNJqBSV/baby-93.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/mNJqBSV/baby-93.jpg",
+            "img_two": "https://i.ibb.co/mNJqBSV/baby-93.jpg"
+        }
+    },
+    {
+        "product_id":94,
+        "product_name":"Woolen sweater set",
+        "review":"3",
+        "categories":"baby",
+        "price":"39",
+        "type":"Baby Accessories",
+        "color":"Cream",
+        "main_img":"https://i.ibb.co/Jc7QHrs/baby-94.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/Jc7QHrs/baby-94.jpg",
+            "img_two": "https://i.ibb.co/Jc7QHrs/baby-94.jpg"
+        }
+    },
+    {
+        "product_id":95,
+        "product_name":"Plastic spoon",
+        "review":"4",
+        "categories":"baby",
+        "price":"15",
+        "type":"Baby Accessories",
+        "color":"Red",
+        "main_img":"https://i.ibb.co/MDP8kWX/baby-95.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/MDP8kWX/baby-95.jpg",
+            "img_two": "https://i.ibb.co/MDP8kWX/baby-95.jpg"
+        }
+    },
+    {
+        "product_id":96,
+        "product_name":"Fish toy",
+        "review":"3",
+        "categories":"baby",
+        "price":"35",
+        "type":"Baby Accessories",
+        "color":"Orange",
+        "condition":"new",
+        "main_img":"https://i.ibb.co/Km79h69/baby-96.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/Km79h69/baby-96.jpg",
+            "img_two": "https://i.ibb.co/Km79h69/baby-96.jpg"
+        }
+    },
+    {
+        "product_id":97,
+        "product_name":"Soft shoes",
+        "review":"4",
+        "categories":"baby",
+        "price":"49",
+        "type":"Baby Accessories",
+        "color":"Sky Blue",
+        "main_img":"https://i.ibb.co/dKdJXWZ/baby-97.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/dKdJXWZ/baby-97.jpg",
+            "img_two": "https://i.ibb.co/dKdJXWZ/baby-97.jpg"
+        }
+    },
+    {
+        "product_id":98,
+        "product_name":"Majestric grey stroller",
+        "review":"3",
+        "categories":"baby",
+        "price":"100",
+        "type":"Baby Accessories",
+        "color":"Grey",
+        "main_img":"https://i.ibb.co/0CNpG4N/baby-98.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/0CNpG4N/baby-98.jpg",
+            "img_two": "https://i.ibb.co/0CNpG4N/baby-98.jpg"
+        }
+    },
+    {
+        "product_id":99,
+        "product_name":"Rotation pink stroller",
+        "review":"2",
+        "categories":"baby",
+        "price":"85",
+        "type":"Baby Accessories",
+        "color":"Pink",
+        "main_img":"https://i.ibb.co/n8rD5Np/baby-99.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/n8rD5Np/baby-99.jpg",
+            "img_two": "https://i.ibb.co/n8rD5Np/baby-99.jpg"
+        }
+    },
+    {
+        "product_id":100,
+        "product_name":"Baby rattle",
+        "review":"4",
+        "categories":"baby",
+        "price":"39",
+        "type":"Baby Accessories",
+        "color":"Blue",
+        "main_img":"https://i.ibb.co/YtktBpz/baby-100.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/YtktBpz/baby-100.jpg",
+            "img_two": "https://i.ibb.co/YtktBpz/baby-100.jpg"
+        }
+    },
+    {
+        "product_id":101,
+        "product_name":"Adjustable socks",
+        "review":"3",
+        "categories":"baby",
+        "price":"15",
+        "type":"Baby Accessories",
+        "color":"Pink",
+        "main_img":"https://i.ibb.co/6ZGt4M4/baby-101.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/6ZGt4M4/baby-101.jpg",
+            "img_two": "https://i.ibb.co/6ZGt4M4/baby-101.jpg"
+        }
+    },
+    {
+        "product_id":102,
+        "product_name":"Shine baby stroller",
+        "review":"4",
+        "categories":"baby",
+        "price":"149",
+        "type":"Baby Accessories",
+        "color":"Grey",
+        "main_img":"https://i.ibb.co/4MjBp9T/baby-102.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/4MjBp9T/baby-102.jpg",
+            "img_two": "https://i.ibb.co/4MjBp9T/baby-102.jpg"
+        }
+    },
+    {
+        "product_id":103,
+        "product_name":"Light weight stroller",
+        "review":"3",
+        "categories":"baby",
+        "price":"199",
+        "type":"Baby Accessories",
+        "color":"Orange",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/y63XKQw/baby-103.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/y63XKQw/baby-103.jpg",
+            "img_two": "https://i.ibb.co/y63XKQw/baby-103.jpg"
+        }
+    },
+    {
+        "product_id":104,
+        "product_name":"Straight Leg Jeans",
+        "review":"3",
+        "categories":"manfashion",
+        "price":"119",
+        "type":"Jeans",
+        "color":"White",
+        "material":"fabric",
+        "main_img":"https://i.ibb.co/wSX2Cmh/man-104.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/wSX2Cmh/man-104.jpg",
+            "img_two": "https://i.ibb.co/wSX2Cmh/man-104.jpg"
+        }
+    },
+    {
+        "product_id":105,
+        "product_name":"Slim Fit Jeans",
+        "review":"4",
+        "categories":"manfashion",
+        "price":"119",
+        "type":"Jeans",
+        "color":"White",
+        "material":"fabric",
+        "main_img":"https://i.ibb.co/HzJSGVn/man-105.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/HzJSGVn/man-105.jpg",
+            "img_two": "https://i.ibb.co/HzJSGVn/man-105.jpg"
+        }
+    },
+    {
+        "product_id":106,
+        "product_name":"Slim Straight Leg Jeans",
+        "review":"2",
+        "categories":"manfashion",
+        "price":"125",
+        "type":"Jeans",
+        "color":"Dark Blue",
+        "material":"fabric",
+        "main_img":"https://i.ibb.co/6XcLrwV/man-106.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/6XcLrwV/man-106.jpg",
+            "img_two": "https://i.ibb.co/6XcLrwV/man-106.jpg"
+        }
+    },
+    {
+        "product_id":107,
+        "product_name":"Slim Straight Jeans",
+        "review":"4",
+        "categories":"manfashion",
+        "price":"89",
+        "type":"Jeans",
+        "color":"Light Sky Blue",
+        "material":"fabric",
+        "main_img":"https://i.ibb.co/52h768R/man-107.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/52h768R/man-107.jpg",
+            "img_two": "https://i.ibb.co/52h768R/man-107.jpg"
+        }
+    },
+    {
+        "product_id":108,
+        "product_name":"Motive Leather Shoes",
+        "review":"3",
+        "categories":"manfashion",
+        "price":"189",
+        "type":"Shoe",
+        "color":"Chocolate",
+        "material":"Leather",
+        "main_img":"https://i.ibb.co/HKbVg8L/man-108.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/HKbVg8L/man-108.jpg",
+            "img_two": "https://i.ibb.co/HKbVg8L/man-108.jpg"
+        }
+    },
+    {
+        "product_id":109,
+        "product_name":"Motive Leather Shoes",
+        "review":"4",
+        "categories":"manfashion",
+        "price":"179",
+        "type":"Shoe",
+        "color":"Black",
+        "material":"Leather",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/KVjSvYV/man-109.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/KVjSvYV/man-109.jpg",
+            "img_two": "https://i.ibb.co/KVjSvYV/man-109.jpg"
+        }
+    },
+    {
+        "product_id":110,
+        "product_name":"Semi Leather Shoes",
+        "review":"3",
+        "categories":"manfashion",
+        "price":"159",
+        "type":"Shoe",
+        "color":"Pure Black",
+        "material":"Semi Leather",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/bRdKJNB/man-110.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/bRdKJNB/man-110.jpg",
+            "img_two": "https://i.ibb.co/bRdKJNB/man-110.jpg"
+        }
+    },
+    {
+        "product_id":111,
+        "product_name":"White Converse",
+        "review":"3",
+        "categories":"manfashion",
+        "price":"125",
+        "type":"Converse",
+        "color":"White",
+        "material":"fabric",
+        "main_img":"https://i.ibb.co/rF0S8sZ/man-111.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rF0S8sZ/man-111.jpg",
+            "img_two": "https://i.ibb.co/rF0S8sZ/man-111.jpg"
+        }
+    },
+    {
+        "product_id":112,
+        "product_name":"Golden Sun Glass",
+        "review":"4",
+        "categories":"manfashion",
+        "price":"150",
+        "type":"Sun Glass",
+        "color":"Golden",
+        "material":"Stainless Steel",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/G2TLX8X/man-112.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/G2TLX8X/man-112.jpg",
+            "img_two": "https://i.ibb.co/G2TLX8X/man-112.jpg"
+        }
+    },
+    {
+        "product_id":113,
+        "product_name":"Black Keds",
+        "review":"2",
+        "categories":"manfashion",
+        "price":"115",
+        "type":"Keds",
+        "color":"Black",
+        "material":"fabric",
+        "main_img":"https://i.ibb.co/nbt0Bbs/man-113.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/nbt0Bbs/man-113.jpg",
+            "img_two": "https://i.ibb.co/nbt0Bbs/man-113.jpg"
+        }
+    },
+    {
+        "product_id":114,
+        "product_name":"White Keds",
+        "review":"4",
+        "categories":"manfashion",
+        "price":"179",
+        "type":"Keds",
+        "color":"White",
+        "material":"Leather, Rubber",
+        "main_img":"https://i.ibb.co/VHps4vf/man-114.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/VHps4vf/man-114.jpg",
+            "img_two": "https://i.ibb.co/VHps4vf/man-114.jpg"
+        }
+    },
+    {
+        "product_id":115,
+        "product_name":"Orange Keds",
+        "review":"4",
+        "categories":"manfashion",
+        "price":"210",
+        "type":"Keds",
+        "color":"Orange",
+        "material":"Leather, Rubber",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/MGSxMRr/man-115.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/MGSxMRr/man-115.jpg",
+            "img_two": "https://i.ibb.co/MGSxMRr/man-115.jpg"
+        }
+    },
+    {
+        "product_id":116,
+        "product_name":"Yellow Keds",
+        "review":"5",
+        "categories":"manfashion",
+        "price":"250",
+        "type":"Keds",
+        "color":"Yellow",
+        "material":"Leather, Rubber",
+        "main_img":"https://i.ibb.co/Jyr7ZNv/man-116.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/Jyr7ZNv/man-116.jpg",
+            "img_two": "https://i.ibb.co/Jyr7ZNv/man-116.jpg"
+        }
+    },
+    {
+        "product_id":117,
+        "product_name":"Sheet Mask",
+        "review":"3",
+        "categories":"cosmatic",
+        "price":"10",
+        "type":"Natural",
+        "brand":"3W Clinic",
+        "main_img":"https://i.ibb.co/BTssk9p/cosmatic-117.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/BTssk9p/cosmatic-117.jpg",
+            "img_two": "https://i.ibb.co/BTssk9p/cosmatic-117.jpg"
+        }
+    },
+    {
+        "product_id":118,
+        "product_name":"Himalaya Neem Face Wash",
+        "review":"4",
+        "categories":"cosmatic",
+        "price":"59",
+        "type":"Natural",
+        "brand":"Himalaya",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/1dpdnnf/cosmatic-118.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/1dpdnnf/cosmatic-118.jpg",
+            "img_two": "https://i.ibb.co/1dpdnnf/cosmatic-118.jpg"
+        }
+    },
+    {
+        "product_id":119,
+        "product_name":"Himalaya Oil Clear Face Wash",
+        "review":"4",
+        "categories":"cosmatic",
+        "price":"70",
+        "type":"Natural",
+        "brand":"Himalaya",
+        "main_img":"https://i.ibb.co/7XNM80B/cosmatic-119.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/7XNM80B/cosmatic-119.jpg",
+            "img_two": "https://i.ibb.co/7XNM80B/cosmatic-119.jpg"
+        }
+    },
+    {
+        "product_id":120,
+        "product_name":"Clear Facial Wash",
+        "review":"4",
+        "categories":"cosmatic",
+        "price":"69",
+        "type":"Natural",
+        "brand":"Neutrogena",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/8XNyn4W/cosmatic-120.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/8XNyn4W/cosmatic-120.jpg",
+            "img_two": "https://i.ibb.co/8XNyn4W/cosmatic-120.jpg"
+        }
+    },
+    {
+        "product_id":121,
+        "product_name":"Vaseline Lip Therapy",
+        "review":"3",
+        "categories":"cosmatic",
+        "price":"29",
+        "type":"Natural",
+        "brand":"Vaseline",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/vh2ZNGs/cosmatic-121.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/3CgWpq0/cosmatic-121-1.jpg",
+            "img_two": "https://i.ibb.co/vh2ZNGs/cosmatic-121.jpg"
+        }
+    },
+    {
+        "product_id":122,
+        "product_name":"Hydrating Light Moisturiser",
+        "review":"4",
+        "categories":"cosmatic",
+        "price":"40",
+        "type":"Natural",
+        "brand":"Simple",
+        "main_img":"https://i.ibb.co/FB29N67/cosmatic-122.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/FB29N67/cosmatic-122.jpg",
+            "img_two": "https://i.ibb.co/FB29N67/cosmatic-122.jpg"
+        }
+    },
+    {
+        "product_id":123,
+        "product_name":"Foaming Face Wash",
+        "review":"3",
+        "categories":"cosmatic",
+        "price":"29",
+        "type":"Natural",
+        "brand":"Clean & Clear",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/R6sym49/cosmatic-123.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/R6sym49/cosmatic-123.jpg",
+            "img_two": "https://i.ibb.co/R6sym49/cosmatic-123.jpg"
+        }
+    },
+    {
+        "product_id":124,
+        "product_name":"NIACINAMIDE SERUM",
+        "review":"2",
+        "categories":"cosmatic",
+        "price":"15",
+        "type":"Natural",
+        "brand":" LILAC",
+        "main_img":"https://i.ibb.co/5TRRcW3/cosmatic-124.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/bzVxQYN/cosmatic-124-1.png",
+            "img_two": "https://i.ibb.co/5TRRcW3/cosmatic-124.jpg"
+        }
+    },
+    {
+        "product_id":125,
+        "product_name":"Hair Recovering Mask",
+        "review":"4",
+        "categories":"cosmatic",
+        "price":"45",
+        "type":"Natural",
+        "brand":"Power Knight",
+        "main_img":"https://i.ibb.co/YZbyCgh/cosmatic-125.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/YZbyCgh/cosmatic-125.jpg",
+            "img_two": "https://i.ibb.co/YZbyCgh/cosmatic-125.jpg"
+        }
+    },
+    {
+        "product_id":126,
+        "product_name":"Amla powder",
+        "review":"3",
+        "categories":"cosmatic",
+        "price":"19",
+        "type":"Natural",
+        "brand":"Rajkonna",
+        "main_img":"https://i.ibb.co/718ZYQq/cosmatic-126.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/718ZYQq/cosmatic-126.jpg",
+            "img_two": "https://i.ibb.co/718ZYQq/cosmatic-126.jpg"
+        }
+    },
+    {
+        "product_id":127,
+        "product_name":"Rajkonna Olive Oil",
+        "review":"3",
+        "categories":"cosmatic",
+        "price":"30",
+        "type":"Natural",
+        "brand":"Rajkonna",
+        "main_img":"https://i.ibb.co/0J97g2B/cosmatic-127.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/0J97g2B/cosmatic-127.jpg",
+            "img_two": "https://i.ibb.co/0J97g2B/cosmatic-127.jpg"
+        }
+    },
+    {
+        "product_id":128,
+        "product_name":"Jameela Oil",
+        "review":"4",
+        "categories":"religionsitem",
+        "price":"20",
+        "type":"Natural",
+        "brand":"Jameela",
+        "main_img":"https://i.ibb.co/5kFwtb6/religion-128.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/5kFwtb6/religion-128.png",
+            "img_two": "https://i.ibb.co/5kFwtb6/religion-128.png"
+        }
+    },
+    {
+        "product_id":129,
+        "product_name":"Al Haramain Perfume",
+        "review":"3",
+        "categories":"religionsitem",
+        "price":"15",
+        "type":"Natural",
+        "brand":"Al Haramain",
+        "main_img":"https://i.ibb.co/hYFtJqH/religion-129.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/hYFtJqH/religion-129.jpg",
+            "img_two": "https://i.ibb.co/hYFtJqH/religion-129.jpg"
+        }
+    },
+    {
+        "product_id":130,
+        "product_name":"Payer Mat",
+        "review":"4",
+        "categories":"religionsitem",
+        "price":"15",
+        "type":"Fabric",
+        "brand":"Jameela",
+        "main_img":"https://i.ibb.co/MgLY2rS/religion-130.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/MgLY2rS/religion-130.jpg",
+            "img_two": "https://i.ibb.co/MgLY2rS/religion-130.jpg"
+        }
+    },
+    {
+        "product_id":131,
+        "product_name":"Multi-Color Tasbih",
+        "review":"3",
+        "categories":"religionsitem",
+        "price":"15",
+        "type":"Polymar",
+        "brand":"Jameela",
+        "main_img":"https://i.ibb.co/njLr77s/religion-131.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/njLr77s/religion-131.jpg",
+            "img_two": "https://i.ibb.co/njLr77s/religion-131.jpg"
+        }
+    },
+    {
+        "product_id":132,
+        "product_name":"Dana Crystal Tasbih",
+        "review":"3",
+        "categories":"religionsitem",
+        "price":"18",
+        "type":"Still",
+        "brand":"Dana",
+        "main_img":"https://i.ibb.co/6gcvdF5/religion-132.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/6gcvdF5/religion-132.jpg",
+            "img_two": "https://i.ibb.co/6gcvdF5/religion-132.jpg"
+        }
+    },
+    {
+        "product_id":133,
+        "product_name":"Multi-Color Tasbih",
+        "review":"3",
+        "categories":"religionsitem",
+        "price":"15",
+        "type":"Polymar",
+        "brand":"Jameela",
+        "main_img":"https://i.ibb.co/njLr77s/religion-131.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/njLr77s/religion-131.jpg",
+            "img_two": "https://i.ibb.co/njLr77s/religion-131.jpg"
+        }
+    },
+    {
+        "product_id":134,
+        "product_name":"Payer Mat",
+        "review":"4",
+        "categories":"religionsitem",
+        "price":"15",
+        "type":"Fabric",
+        "brand":"Jameela",
+        "main_img":"https://i.ibb.co/MgLY2rS/religion-130.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/MgLY2rS/religion-130.jpg",
+            "img_two": "https://i.ibb.co/MgLY2rS/religion-130.jpg"
+        }
+    },
+    {
+        "product_id":135,
+        "product_name":"Jameela Oil",
+        "review":"4",
+        "categories":"religionsitem",
+        "price":"20",
+        "type":"Natural",
+        "brand":"Jameela",
+        "main_img":"https://i.ibb.co/5kFwtb6/religion-128.png",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/5kFwtb6/religion-128.png",
+            "img_two": "https://i.ibb.co/5kFwtb6/religion-128.png"
+        }
+    },
+    {
+        "product_id":136,
+        "product_name":"Turkey Jaynamaz",
+        "review":"3",
+        "categories":"religionsitem",
+        "price":"29",
+        "type":"Fabric",
+        "brand":"Mihrab",
+        "main_img":"https://i.ibb.co/qBptDP0/religion-136.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/qBptDP0/religion-136.jpg",
+            "img_two": "https://i.ibb.co/qBptDP0/religion-136.jpg"
+        }
+    },
+    {
+        "product_id":137,
+        "product_name":"Prayer Stand",
+        "review":"4",
+        "categories":"religionsitem",
+        "price":"12",
+        "type":"Polymar",
+        "brand":"RFL",
+        "main_img":"https://i.ibb.co/yqrZsy4/religion-137.webp",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/yqrZsy4/religion-137.webp",
+            "img_two": "https://i.ibb.co/yqrZsy4/religion-137.webp"
+        }
+    },
+    {
+        "product_id":138,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"450",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"600D",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/NmVSNfZ/camera-138.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/zm1hShL/camera138-1.jpg",
+            "img_two": "https://i.ibb.co/NmVSNfZ/camera-138.jpg"
+        }
+    },
+    {
+        "product_id":139,
+        "product_name":"Nikon D5200",
+        "review":"4",
+        "categories":"camera",
+        "price":"430",
+        "type":"DSLR",
+        "brand":"Nikon",
+        "Model":"D5200",
+        "main_img":"https://i.ibb.co/n089sPW/camera-139.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/BKy11f5/camera-139-1.jpg",
+            "img_two": "https://i.ibb.co/n089sPW/camera-139.jpg"
+        }
+    },
+    {
+        "product_id":140,
+        "product_name":"Nikon D3400",
+        "review":"3",
+        "categories":"camera",
+        "price":"470",
+        "type":"DSLR",
+        "brand":"Nikon",
+        "Model":"D3400",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/zr9qzZH/camera-140.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/stwPsbz/camera-140-1.jpg",
+            "img_two": "https://i.ibb.co/zr9qzZH/camera-140.jpg"
+        }
+    },
+    {
+        "product_id":141,
+        "product_name":"Nikon D3400",
+        "review":"3",
+        "categories":"camera",
+        "price":"320",
+        "type":"DSLR",
+        "brand":"Nikon",
+        "Model":"D3400",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/zr9qzZH/camera-140.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/stwPsbz/camera-140-1.jpg",
+            "img_two": "https://i.ibb.co/zr9qzZH/camera-140.jpg"
+        }
+    },
+    {
+        "product_id":142,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"550",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"550D",
+        "main_img":"https://i.ibb.co/F4mQP20/camera-142.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/5rGYPn9/camera-142-1.jpg",
+            "img_two": "https://i.ibb.co/F4mQP20/camera-142.jpg"
+        }
+    },
+    {
+        "product_id":143,
+        "product_name":"Canon EOS",
+        "review":"4",
+        "categories":"camera",
+        "price":"570",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"250D",
+        "main_img":"https://i.ibb.co/hDKqHTh/camera-143.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/rvfHKm4/camera-143-1.jpg",
+            "img_two": "https://i.ibb.co/hDKqHTh/camera-143.jpg"
+        }
+    },
+    {
+        "product_id":144,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"680",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"1300D",
+        "main_img":"https://i.ibb.co/k0th3VH/camera-144.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/vd27FP9/camera-144-1.jpg",
+            "img_two": "https://i.ibb.co/k0th3VH/camera-144.jpg"
+        }
+    },
+    {
+        "product_id":145,
+        "product_name":"Nikon D7000",
+        "review":"3",
+        "categories":"camera",
+        "price":"425",
+        "type":"DSLR",
+        "brand":"Nikon",
+        "Model":"D7000",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/LgtpPc2/camera-145.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/cv7Dbfk/camera-145-1.jpg",
+            "img_two": "https://i.ibb.co/LgtpPc2/camera-145.jpg"
+        }
+    },
+    {
+        "product_id":146,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"530",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"600D",
+        "condition" : "new",
+        "main_img":"https://i.ibb.co/Jdy4NYX/camera-146.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/GphhF3g/camera-146-1.jpg",
+            "img_two": "https://i.ibb.co/Jdy4NYX/camera-146.jpg"
+        }
+    },
+    {
+        "product_id":147,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"365",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"700D",
+        "main_img":"https://i.ibb.co/gtzQp1F/camera-147.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/X53KbW0/camera-147-1.jpg",
+            "img_two": "https://i.ibb.co/gtzQp1F/camera-147.jpg"
+        }
+    },
+    {
+        "product_id":148,
+        "product_name":"Nikon D3100",
+        "review":"3",
+        "categories":"camera",
+        "price":"290",
+        "type":"DSLR",
+        "brand":"Nikon",
+        "Model":"D3100",
+        "main_img":"https://i.ibb.co/DzHm7Qt/camera-148.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/DzHm7Qt/camera-148.jpg",
+            "img_two": "https://i.ibb.co/DzHm7Qt/camera-148.jpg"
+        }
+    },
+    {
+        "product_id":149,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"345",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"600D",
+        "sale":"best",
+        "main_img":"https://i.ibb.co/3yFvq7p/camera-149.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/3yFvq7p/camera-149.jpg",
+            "img_two": "https://i.ibb.co/3yFvq7p/camera-149.jpg"
+        }
+    },
+    {
+        "product_id":150,
+        "product_name":"Canon EOS",
+        "review":"3",
+        "categories":"camera",
+        "price":"450",
+        "type":"DSLR",
+        "brand":"Canon",
+        "Model":"760D",
+        "main_img":"https://i.ibb.co/7KzvgsR/camera-150.jpg",
+        "detail_img":{
+            "img_one": "https://i.ibb.co/LCPk2D6/camera-150-1.jpg",
+            "img_two": "https://i.ibb.co/7KzvgsR/camera-150.jpg"
+        }
+    
+    }
+]

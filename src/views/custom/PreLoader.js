@@ -4,7 +4,7 @@ import { CircularProgress } from '@mui/material';
 const PreLoader = () => {
     return (
         <div style={{display: "flex", textAlign: "center", justifyContent:"center", padding:"50px", fontSize: "40px"}}>
-            <CircularProgress color="secondary" />
+            <CircularProgress color="primary" />
         </div>
     );
 };

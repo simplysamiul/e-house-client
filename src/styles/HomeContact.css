@@ -1,0 +1,9 @@
+.home-contact-area{
+    margin: 100px 50px;
+    border: 2px solid lightgray;
+}
+.home-contact-container{
+    padding: 40px 20px;
+    width: 80%;
+    margin: auto;
+}

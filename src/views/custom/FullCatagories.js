@@ -50,9 +50,9 @@ export default function FullCatagories() {
           </div>
           <div>
             <Link to=""><FaBabyCarriage className='catagories-drawer-icon' />Baby &amp; Toy</Link>
-            <Link to=""><GiMailShirt className='catagories-drawer-icon' />Men's Fasion</Link>
+            <Link to=""><GiMailShirt className='catagories-drawer-icon' />Men's Fashion</Link>
             <Link to=""><GiLipstick className='catagories-drawer-icon' />Cosmatic</Link>
-            <Link to=""><FaQuran className='catagories-drawer-icon' /> Relihions Items</Link>
+            <Link to=""><FaQuran className='catagories-drawer-icon' /> Religions Items</Link>
           </div>
         </div>
       </List>
@@ -62,7 +62,7 @@ export default function FullCatagories() {
     <div>
       {['top'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <button className='more-items-btn' onClick={toggleDrawer(anchor, true)}>More Catagories <AiOutlinePlusCircle /></button>
+          <button className='more-items-btn' onClick={toggleDrawer(anchor, true)}>More Categories <AiOutlinePlusCircle /></button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
