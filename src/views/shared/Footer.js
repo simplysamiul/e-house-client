@@ -17,7 +17,7 @@ const Footer = () => {
     return (
         <div className='footer-area'>
             <div className="footer-container">
-                <div className="footer-header-content">
+                <div className="footer-header-content" data-aos="fade-up" data-aos-duration="1000">
                 <div className="footer-header">
                     <div className="footer-header-title">
                         <SiMinutemailer className='email-icon' />

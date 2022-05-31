@@ -1,0 +1,123 @@
+.arrival-cart{
+    border-bottom:  2px solid gray;
+    border-right: 2px solid gray;
+    padding-bottom: 15px;
+    position: relative;
+    font-family: serif;
+}
+.arrival-cart small{
+    color: white;
+    background:#f31a1a;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.arrival-cart img{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.arrival-cart h4{
+    color: #1e1ef0;
+    font-size: 25px;
+}
+.arrival-cart h5{
+    color: #dd2222;
+    font-weight: 600;
+}
+.arrival-add-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.arrival-add-list button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    border: none;
+    background: none;
+    background: hsla(0, 0%, 83%, 0.50);
+    padding: 5px 8px;
+    border-radius: 35px;
+    font-size: 18px;
+    visibility: hidden;
+}
+.arrival-cart:hover .arrival-add-list button{
+    visibility: visible;
+}
+
+/* Responsive Code */
+@media only screen and (max-width: 650px){
+    .arrival-cart img{
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .arrival-add-list button{
+        margin: 8px 0;
+        border: none;
+        background: none;
+        background: hsla(0, 0%, 83%, 0.50);
+        padding: 4px 6px;
+        border-radius: 40px;
+        font-size: 14px;
+        visibility: visible;
+    }
+    .arrival-cart{
+        border: none;
+    }
+    .arrival-add-list button{
+        margin: 8px 0;
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 900px){
+    /* Home Products */
+    .arrival-cart img{
+        height: 120px;
+        padding: 15px;
+    }
+    .arrival-cart h4{
+        font-size: 18px;
+    }
+    .arrival-cart p{
+        font-size: 18px;
+    }
+    .arrival-cart small{
+        padding: 4px 6px;
+        font-size: 12px;
+        border-radius: 12px;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 601px){
+    .arrival-cart img{
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 701px){
+    .arrival-cart img{
+        height: 170px;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 801px){
+    .arrival-cart img{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 901px){
+    .arrival-cart img{
+        height: 220px;
+    }
+}

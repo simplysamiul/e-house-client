@@ -4,6 +4,8 @@ import { Pagination } from '@mui/material';
 import ProductService from '../../../../services/Product.service';
 import PreLoader from '../../../custom/PreLoader';
 import ArrivalSlider from '../../../custom/ArrivalSlider.js';
+import arrival1 from '../../../../assets/newArrival/arrival-1.png';
+import arrival2 from '../../../../assets/newArrival/arrival-2.png';
 import '../../../../styles/HomeArrival.css';
 
 const HomeArrival = () => {
@@ -13,7 +15,6 @@ const HomeArrival = () => {
     const [loading, setLoading] = useState(false);
     // For pagination
     const [currentPage, setCurrentPage] = useState(1);
-    console.log(currentPage);
     const [arrivalPage, setArrivalPage] = useState(1);
     const eachpageData = 4;
     useEffect(()=>{
@@ -28,10 +29,17 @@ const HomeArrival = () => {
         })
     },[currentPage]);
     return (
-        <div className='home-arivval-area'>
+        <div className='home-arrival-area'>
+            <div className="arrival-banner">
+                <img data-aos="fade-right" data-aos-duration="500" src={arrival1} alt="" />
+                <img data-aos="fade-left" data-aos-duration="500" src={arrival2} alt="" />
+            </div>
+            <div className="section-header">
+                <h1>New <span>Arrival</span> </h1>
+            </div>
             <div className="home-arivval-container">
                 <div className="home-arivval-content">
-                    <div className="home-arivval-slider">
+                    <div className="home-arivval-slider" data-aos="flip-left" data-aos-duration="500">
                         <ArrivalSlider />
                     </div>
                     {loading ? <PreLoader /> 
@@ -48,8 +56,7 @@ const HomeArrival = () => {
                         <div className="arrival-pagination">
                         <Pagination 
                         count={arrivalPage}
-                        defaultPage={currentPage} 
-                        variant="outlined" 
+                        defaultPage={currentPage}
                         color="primary" 
                         onChange={(e, value)=> setCurrentPage(value)}
                         />

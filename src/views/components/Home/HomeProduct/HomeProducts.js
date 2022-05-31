@@ -11,7 +11,7 @@ const HomeProducts = ({product}) => {
     const reviewNumber = parseInt(review);
     const dispatch = useDispatch();
     return (
-            <div className="cart-container">
+            <div className="cart-container" data-aos="zoom-in" data-aos-duration="500">
                 <div className="cart-content"> 
                         <img src={main_img} alt="" />
                         <small>30%</small>

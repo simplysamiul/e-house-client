@@ -1,6 +1,17 @@
 /* Home arrival */
-.home-arivval-area{
+.home-arrival-area{
     margin: 100px 50px;
+}
+.arrival-banner{
+    padding-bottom: 60px;
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+.arrival-banner img{
+    width: 100%;
 }
 .home-arivval-container{
     border: 2px solid lightgray;
@@ -13,8 +24,25 @@
 }
 .arivval-all-carts{
     display: grid;
+    margin-bottom: 50px;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+.arrival-pagination{
+    text-align: center;
 }
 
 
-/* Arrival Slider */
+/* Responsive Code */
+@media only screen and (max-width: 850px){
+    .home-arivval-slider{
+        display: none;
+    }
+    .arrival-banner{
+        grid-column-gap: 20px;
+    }
+    .home-arivval-content{
+        grid-template-columns: 100%;
+    }
+}

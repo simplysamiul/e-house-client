@@ -24,7 +24,7 @@ const CategoriesCart = () => {
                     <Link to="/"><GiSofa className='catagories-icon' />Furnitures</Link>
                     <FullCatagories />
                 </div>
-                <div className="responsive-categories">
+                <div className="responsive-categories" data-aos="fade-down">
                 <FullCatagories />
             </div>
             </div>
