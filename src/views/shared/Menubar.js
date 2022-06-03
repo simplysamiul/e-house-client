@@ -7,12 +7,15 @@ import { FaFacebookF } from 'react-icons/fa';
 import { FaPinterestP, FaUserAlt } from 'react-icons/fa';
 import { BsInstagram, BsSlashLg } from 'react-icons/bs';
 import { BsYoutube } from 'react-icons/bs';
-import '../../styles/Menubar.css';
 import { Link } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import CustomeMenu from '../custom/CustomeMenu';
+import { useSelector } from 'react-redux';
+import '../../styles/Menubar.css';
 
 const Menubar = () => {
+    const cardList = useSelector((state) => state.cart);
+    const wishList = useSelector((state) =>state.wish);
     return (
         <div className='menu-area'>
             <div className="menu-container">
@@ -32,8 +35,10 @@ const Menubar = () => {
                         <button><BiSearchAlt /></button>
                     </div>
                     <div className="menu-upper-icon">
+                        <Badge color="error" badgeContent={wishList.length} showZero>    
                         <Link to="/"><AiFillHeart /></Link>
-                        <Badge color="error" badgeContent={15} showZero>
+                        </Badge>
+                        <Badge color="error" badgeContent={cardList.length} showZero>
                         <Link to="/"><GiShoppingBag /></Link>
                         </Badge>
                         <div className="profile-link">

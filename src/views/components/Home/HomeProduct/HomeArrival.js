@@ -56,7 +56,6 @@ const HomeArrival = () => {
                         <div className="arrival-pagination">
                         <Pagination 
                         count={arrivalPage}
-                        defaultPage={currentPage}
                         color="primary" 
                         onChange={(e, value)=> setCurrentPage(value)}
                         />

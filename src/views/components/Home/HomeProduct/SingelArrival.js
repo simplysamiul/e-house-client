@@ -5,6 +5,7 @@ import { BsHeart, BsCartPlus } from 'react-icons/bs';
 import { addToCart } from '../../../../redux/actions/cartAction';
 import '../../../../styles/SingelArrival.css';
 import { useDispatch } from 'react-redux';
+import { addToWishList } from '../../../../redux/actions/wishAction';
 
 const SingelArrival = ({arrival}) => {
     const {product_name, main_img, review, price} = arrival;
@@ -15,7 +16,7 @@ const SingelArrival = ({arrival}) => {
             <small>New</small>
             <div className="arrival-add-list">
                     <button title='Quick View'> <i><AiOutlineEye /></i></button>
-                    <button title='Add Wish List'> <i><BsHeart /></i></button>
+                    <button onClick={()=> dispatch(addToWishList(arrival))} title='Add Wish List'> <i><BsHeart /></i></button>
                     <button 
                     onClick={()=> dispatch(addToCart(arrival))} 
                     title='Add to cart'> <i><BsCartPlus />

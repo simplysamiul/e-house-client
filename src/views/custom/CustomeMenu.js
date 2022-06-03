@@ -27,8 +27,8 @@ const CustomeMenu = () => {
                         <Offcanvas.Body>
                             <Nav className="justify-content-end flex-grow-1 pe-3 menu-items">
                             <NavLink to="/home">Home</NavLink>
-                            <NavLink to="/products">New Products</NavLink>
-                            <NavLink to="/sales">Best Sales</NavLink>
+                            <NavLink to="/newproducts">New Products</NavLink>
+                            <NavLink to="/bestsales">Best Sales</NavLink>
                             <NavLink to="/shop">Shop</NavLink>
                             <NavDropdown
                                 className='inside-about'
