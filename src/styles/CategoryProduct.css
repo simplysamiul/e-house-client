@@ -1,32 +1,27 @@
-/* Shop Array */
-.shop-page-area{
+/* Category products */
+.all-categories-area{
     margin: 50px;
 }
-.shop-page-products{
+.all-categories-carts{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-column-gap: 50px;
     grid-row-gap: 40px;
 }
-.shop-page-number{
-    margin: 80px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.shop-products{
+.all-categories-header{
     position: relative;
-    margin-bottom: 30px;
+    margin: 40px 0;
 }
-.shop-products h1{
+.all-categories-header h1{
     font-family: serif;
     font-size: 35px;
     color: #0E4D74;
+    text-transform: capitalize;
 }
-.shop-products span{
+.all-categories-header span{
     color: #ffc107;
 }
-.shop-products h1::before{
+.all-categories-header h1::before{
     content: "";
     display: block;
     width: 40px;
@@ -36,29 +31,30 @@
     bottom: 0;
     left: 0;
 }
-/* Shop Cart */
-.shop-cart{
+
+
+/* Category products */
+.all-category-cart{
     position: relative;
     font-family: serif;
 }
-.shop-cart img{
+.all-category-cart img{
     padding: 15px;
     width: 100%;
-    height: 250px;
+    height: 320px;
     margin-bottom: 20px;
 }
-.shop-cart h4{
-    color: #1f1fda;
+.all-category-cart h4{
     font-size: 22px;
-    margin-bottom: 20px;
+    color: #2626e4;
+    margin-bottom: 15px;
 }
-.shop-cart h5{
-    color: #e01f1f;
+.all-category-cart h5{
+    color: #e42626;
     font-weight: 600;
     font-size: 20px;
 }
-
-.shop-add-list{
+.category-add-list{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +63,7 @@
     top: 10px;
     right: 10px;
 }
-.shop-add-list button{
+.category-add-list button{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,25 +76,21 @@
     font-size: 18px;
     visibility: hidden;
 }
-.shop-cart:hover .shop-add-list button{
+.all-category-cart:hover .category-add-list button{
     visibility: visible;
 }
 
-/* Responsive code */
+/* responsive code */
 @media only screen and (max-width: 1000px){
-    .shop-add-list button{
+    .category-add-list button{
         visibility: visible;
     }
 }
-@media only screen and (max-width: 650px){
-    /* Shop Array */
-    .shop-page-products{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media only screen and (max-width: 850px) and (min-width: 651px){
-    /* Shop Array */
-    .shop-page-products{
-        grid-template-columns: repeat(3, 1fr);
+
+
+@media only screen and (max-width: 700px){
+    /* Category products */
+    .all-categories-carts{
+        grid-template-columns: repeat(2,1fr);
     }
 }

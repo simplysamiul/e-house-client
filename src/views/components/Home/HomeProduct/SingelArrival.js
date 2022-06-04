@@ -6,16 +6,17 @@ import { addToCart } from '../../../../redux/actions/cartAction';
 import '../../../../styles/SingelArrival.css';
 import { useDispatch } from 'react-redux';
 import { addToWishList } from '../../../../redux/actions/wishAction';
+import { Link } from 'react-router-dom';
 
 const SingelArrival = ({arrival}) => {
-    const {product_name, main_img, review, price} = arrival;
+    const {product_name, main_img, review, price, _id} = arrival;
     const dispatch = useDispatch();
     return (
             <div className='arrival-cart' data-aos="zoom-in" data-aos-duration="500">
-            <img src={main_img} alt="" />
+            <Link to={`/product_details_${_id}`}><img src={main_img} alt="" /></Link>
             <small>New</small>
             <div className="arrival-add-list">
-                    <button title='Quick View'> <i><AiOutlineEye /></i></button>
+                    <Link to={`/product_details_${_id}`}><button title='Quick View'> <i><AiOutlineEye /></i></button></Link>
                     <button onClick={()=> dispatch(addToWishList(arrival))} title='Add Wish List'> <i><BsHeart /></i></button>
                     <button 
                     onClick={()=> dispatch(addToCart(arrival))} 

@@ -20,7 +20,15 @@ class productService {
     async getShopProduct(currentPage, eachpageData){
         const { data } = await httpReq.get(`/shop?page=${currentPage}&&pagedata=${eachpageData}`);
         return data;
-    }
+    };
+    async getProductDetails(id){
+        const {data} = await httpReq.get(`/product_details/${id}`)
+        return data;
+    };
+    async getCategoryProduct(category){
+        const { data } = await httpReq.get(`/categories/${category}`)
+        return data;
+    };
 };
 
 export default new productService();

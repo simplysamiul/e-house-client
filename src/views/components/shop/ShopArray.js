@@ -13,7 +13,7 @@ const ShopArray = () => {
     // For pagination
     const [currentPage, setCurrentPage] = useState(1);
     const [shopPage, setShopPage] = useState(1);
-    const eachpageData = 16;
+    const eachpageData = 20;
     useEffect(()=>{
         setLoading(true);
         ProductService.getShopProduct(currentPage, eachpageData)

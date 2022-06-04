@@ -4,7 +4,7 @@ import FullCatagories from './FullCatagories';
 import { FaQuran } from 'react-icons/fa';
 import {BsWatch, BsPhone} from 'react-icons/bs';
 import {MdMonitor} from 'react-icons/md';
-import {AiOutlineCamera} from 'react-icons/ai';
+import {AiOutlineCamera, AiOutlinePlusCircle} from 'react-icons/ai';
 import {GiLaptop, GiSofa} from 'react-icons/gi';
 import {BiCategory} from  'react-icons/bi';
 import '../../styles/Header.css';
@@ -15,17 +15,23 @@ const CategoriesCart = () => {
             <div className="categories-container">
                 <div className="categories-content">
                     <h4> <p><BiCategory /></p> All Categories</h4>
-                    <Link to="/"><BsWatch className='catagories-icon' /> Watch</Link>
-                    <Link to="/"><BsPhone className='catagories-icon' />Phone</Link>
-                    <Link to="/"><MdMonitor className='catagories-icon' />Tv/Monitor</Link>
-                    <Link to="/"><AiOutlineCamera className='catagories-icon'/>Camera</Link>
-                    <Link to="/"><FaQuran className='catagories-icon' /> Religions Items</Link>
-                    <Link to="/"><GiLaptop className='catagories-icon' />Laptop</Link>
-                    <Link to="/"><GiSofa className='catagories-icon' />Furnitures</Link>
-                    <FullCatagories />
+                    <Link to="/catagory/watch"><BsWatch className='catagories-icon' /> Watch</Link>
+                    <Link to="/catagory/phone"><BsPhone className='catagories-icon' />Phone</Link>
+                    <Link to="/catagory/monitor"><MdMonitor className='catagories-icon' />Tv/Monitor</Link>
+                    <Link to="/catagory/camera"><AiOutlineCamera className='catagories-icon'/>Camera</Link>
+                    <Link to="/catagory/religionsitem"><FaQuran className='catagories-icon' /> Religions Items</Link>
+                    <Link to="/catagory/laptop"><GiLaptop className='catagories-icon' />Laptop</Link>
+                    <Link to="/catagory/furniture"><GiSofa className='catagories-icon' />Furnitures</Link>
+                    <FullCatagories
+                    text={'More Categories'}
+                    icon={<AiOutlinePlusCircle />}
+                    />
                 </div>
                 <div className="responsive-categories" data-aos="fade-down">
-                <FullCatagories />
+                <FullCatagories 
+                text={'More Categories'}
+                icon={<AiOutlinePlusCircle />}
+                />
             </div>
             </div>
         </div>

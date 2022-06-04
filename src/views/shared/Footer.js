@@ -10,12 +10,14 @@ import { FaPinterest } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import ScrollToTop from "react-scroll-to-top";
 import payment from '../../assets/footer/payment-img.webp';
 import '../../styles/Footer.css';
 
 const Footer = () => {
     return (
         <div className='footer-area'>
+            <ScrollToTop style={{background: "#0E4D74"}} smooth top="600" color='white'/>
             <div className="footer-container">
                 <div className="footer-header-content" data-aos="fade-up" data-aos-duration="1000">
                 <div className="footer-header">

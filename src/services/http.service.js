@@ -11,16 +11,16 @@ const instance  = axios.create(axiosConfig);
 
 class Request{
     async get (url){ 
-        return instance.get(url);
+        return await instance.get(url);
     }
     async post (url, body){
-        return instance.post(url, body);
+        return await instance.post(url, body);
     }
     async update(url, body){
-        return instance.patch(url, body);
+        return await instance.patch(url, body);
     }
     async delete(url){
-        return instance.delete(url);
+        return await instance.delete(url);
     }
 }
 

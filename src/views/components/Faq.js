@@ -46,7 +46,7 @@ const Faq = () => {
                             <p>{showAccordion ?
                             <FaMinus /> : 
                             <BsPlusLg/>}</p>
-                            <h3>This is the question</h3>
+                            <h3>What is yours product quality ?</h3>
                         </div>
                         {showAccordion && <p className='faq-ans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque pariatur laboriosam consectetur, laborum optio ipsum placeat repudiandae unde dolorem hic non maiores temporibus sunt. Corporis.</p>}
                     </div>
@@ -55,7 +55,7 @@ const Faq = () => {
                             <p>{showAccordion1 ?
                             <FaMinus /> : 
                             <BsPlusLg/>}</p>
-                            <h3>This is the question</h3>
+                            <h3>What is yours product retun policy ? </h3>
                         </div>
                         {showAccordion1 && <p className='faq-ans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque pariatur laboriosam consectetur, laborum optio ipsum placeat repudiandae unde dolorem hic non maiores temporibus sunt. Corporis.</p>}
                     </div>
@@ -64,7 +64,7 @@ const Faq = () => {
                             <p>{showAccordion2 ?
                             <FaMinus /> : 
                             <BsPlusLg/>}</p>
-                            <h3>This is the question</h3>
+                            <h3>Wht is yours money back policy after return the prouct ?</h3>
                         </div>
                         {showAccordion2 && <p className='faq-ans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque pariatur laboriosam consectetur, laborum optio ipsum placeat repudiandae unde dolorem hic non maiores temporibus sunt. Corporis.</p>}
                     </div>
@@ -73,7 +73,7 @@ const Faq = () => {
                             <p>{showAccordion3 ?
                             <FaMinus /> : 
                             <BsPlusLg/>}</p>
-                            <h3>This is the question</h3>
+                            <h3>Where is yours physical address ?</h3>
                         </div>
                         {showAccordion3 && <p className='faq-ans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque pariatur laboriosam consectetur, laborum optio ipsum placeat repudiandae unde dolorem hic non maiores temporibus sunt. Corporis.</p>}
                     </div>

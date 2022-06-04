@@ -1,24 +1,24 @@
-import React from 'react';
 import { Rating } from '@mui/material';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { AiOutlineEye } from 'react-icons/ai';
 import { BsHeart, BsCartPlus } from 'react-icons/bs';
+import '../../../styles/CategoryProduct.css';
+import { useDispatch } from 'react-redux';
 import { addToWishList } from '../../../redux/actions/wishAction';
 import { addToCart } from '../../../redux/actions/cartAction';
-import { useDispatch } from 'react-redux';
-import { Link } from "react-router-dom";
-import '../../../styles/ShopCart.css';
 
-const ShopCart = ({shopProduct}) => {
-    const {product_name, main_img, review, price, _id} = shopProduct;
+const CategoryProduct = ({categoryProduct}) => {
+    const {main_img, price, product_name, review, _id} = categoryProduct;
     const dispatch = useDispatch();
     return (
-        <div className='shop-cart' data-aos="zoom-in" data-aos-duration="500">
+        <div className='all-category-cart'>
             <Link to={`/product_details_${_id}`}><img src={main_img} alt="" /></Link>
-            <div className="shop-add-list">
+            <div className="category-add-list">
                     <Link to={`/product_details_${_id}`}><button title='Quick View'> <i><AiOutlineEye /></i></button></Link>
-                    <button onClick={()=> dispatch(addToWishList(shopProduct))} title='Add Wish List'> <i><BsHeart /></i></button>
+                    <button onClick={()=> dispatch(addToWishList(categoryProduct))} title='Add Wish List'> <i><BsHeart /></i></button>
                     <button 
-                    onClick={()=> dispatch(addToCart(shopProduct))} 
+                    onClick={()=> dispatch(addToCart(categoryProduct))} 
                     title='Add to cart'> <i><BsCartPlus />
                     </i></button>
             </div>
@@ -29,4 +29,4 @@ const ShopCart = ({shopProduct}) => {
     );
 };
 
-export default ShopCart;
+export default CategoryProduct;
