@@ -66,6 +66,15 @@ const ProductDetails = () => {
                             <p><Rating name="read-only" value={parseInt(review)} readOnly /> <span>(ClientReviews)</span> </p>
                             </div>
                             </div>
+                            <div className="product-quantity">
+                            <input type="number" placeholder='Quantity...' />
+                            <div className="order-butto">
+                            <button>Buy Now</button>
+                            <button 
+                            onClick={()=> dispatch(addToCart(productDetails))} 
+                            title='Add to cart'>Add To cart</button>
+                            </div>
+                            </div>
                        </div>
                        <div className="prduct-service-details">
                         <div className="delivary-area each-service">
@@ -95,22 +104,6 @@ const ProductDetails = () => {
                             </div>
                             </div>
                         </div>
-                        
-                       {/* <div className="product-quantity">
-                            <input type="number" placeholder='Quantity...' />
-                            <button 
-                            onClick={()=> dispatch(addToCart(productDetails))} 
-                            title='Add to cart'> <i><BsCartPlusFill />
-                            </i></button>
-                            </div>
-                            <div className="details-cart-add">
-                            <button
-                            onClick={()=> dispatch(addToWishList(productDetails))}
-                            title='Add Wish List'> <i><BsFillHeartFill /></i></button>
-                            <FullCategories
-                            icon={<BiCategory />}
-                            />
-                        </div> */}
                        </div>
                    </div>
                </div>
