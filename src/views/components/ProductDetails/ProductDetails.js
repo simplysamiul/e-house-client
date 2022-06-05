@@ -6,10 +6,13 @@ import ProductDetailsSlider from '../../custom/ProductDetailsSlider';
 import { Rating } from '@mui/material';
 import { BsImageFill, BsEyeFill, BsFillHeartFill, BsCartPlusFill} from 'react-icons/bs';
 import { BiCategory } from 'react-icons/bi';
+import { HiCash } from 'react-icons/hi';
+import { GiReturnArrow, GiDeliveryDrone} from 'react-icons/gi';
+import { FiShieldOff} from 'react-icons/fi';
 import { addToWishList } from '../../../redux/actions/wishAction';
 import { addToCart } from '../../../redux/actions/cartAction';
-import { useDispatch } from 'react-redux';
 import FullCategories from '../../custom/FullCatagories.js';
+import { useDispatch } from 'react-redux';
 import '../../../styles/ProductDetails.css';
 
 const ProductDetails = () => {
@@ -63,21 +66,50 @@ const ProductDetails = () => {
                             <p><Rating name="read-only" value={parseInt(review)} readOnly /> <span>(ClientReviews)</span> </p>
                             </div>
                             </div>
-                            {/* Product added button */}
-                            <div className="details-cart-add">
-                            <button
-                            onClick={()=> dispatch(addToWishList(productDetails))}
-                            title='Add Wish List'> <i><BsFillHeartFill /></i></button>
+                       </div>
+                       <div className="prduct-service-details">
+                        <div className="delivary-area each-service">
+                        <h5>Delivary</h5>
+                        <p><GiDeliveryDrone /> <span>Home Delivery Service</span> </p>
+                        <p><HiCash /> <span>Cash on Delivery Available</span> </p>
+                        </div>
+                        <div className="service each-service">
+                            <h5>Services</h5>
+                            <p><GiReturnArrow /> <span>7 days return</span> </p>
+                            <p><FiShieldOff /> <span>Warranty not available</span> </p>
+                        </div>
+                        <div className="each-service">
+                            <h5>Sold By</h5>
+                            <div className=" sold-info">
+                            <div className="each-info">
+                                <p>Positive Rating</p>
+                                <h5>80%</h5>
+                            </div>
+                            <div className="each-info">
+                                <p>Ship on Time</p>
+                                <h5>96%</h5>
+                            </div>
+                            <div className="each-info">
+                                <p>Online Service Response Time</p>
+                                <h5>99%</h5>
+                            </div>
+                            </div>
+                        </div>
+                        
+                       {/* <div className="product-quantity">
+                            <input type="number" placeholder='Quantity...' />
                             <button 
                             onClick={()=> dispatch(addToCart(productDetails))} 
                             title='Add to cart'> <i><BsCartPlusFill />
                             </i></button>
+                            </div>
+                            <div className="details-cart-add">
+                            <button
+                            onClick={()=> dispatch(addToWishList(productDetails))}
+                            title='Add Wish List'> <i><BsFillHeartFill /></i></button>
                             <FullCategories
                             icon={<BiCategory />}
                             />
-                        </div>
-                        {/* <div className="product-quantity">
-                            <input type="number" />
                         </div> */}
                        </div>
                    </div>
