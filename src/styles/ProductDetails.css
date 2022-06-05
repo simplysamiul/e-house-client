@@ -142,6 +142,93 @@
     font-size: 20px;
 }
 
+/* product policy */
+.product-policy-area{
+    margin: 50px 0;
+    border: 2px solid lightgrey;
+    font-family: serif;
+}
+.product-policy-button{
+    background: #e4e3e3;
+    box-shadow: 3px 2px 5px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-policy-button button{
+    padding: 20px 20px;
+    margin:  0 10px;
+    border: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+.product-policy-button button:hover{
+    background: #f1c532;
+}
+.each-policy{
+    padding: 30px 40px;
+}
+.each-policy h1{
+    font-size: 30px;
+}
+.each-policy p, li{
+    color: #575757;
+}
+/* product review */
+.rating-form small{
+    color: red;
+}
+.each-review-field label, textarea, input{
+    display: block;
+}
+.each-review-field textarea{
+    width: 50%;
+    padding: 8px 15px;
+    font-size: 18px;
+}
+.review-message textarea:focus{
+    outline: none;
+    border: 1px solid #525252;
+}
+.reviewer-info input:focus{
+    outline: none;
+    border: 1px solid #525252;
+}
+.reviewer-name{
+    width: 25%;
+    margin-right: 8px;
+}
+.reviewer-name input{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+}
+.reviewer-email{
+    width: 24%;
+    margin-left: 8px;
+}
+.reviewer-email input{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+}
+.reviewer-info{
+    margin: 20px 0;
+    display: flex;
+}
+.rating-form button{
+    border: none;
+    background: #07598b;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
 
 /* Responsive code */
 @media only screen and (max-width: 850px){

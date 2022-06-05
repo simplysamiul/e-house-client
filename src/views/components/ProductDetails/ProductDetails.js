@@ -14,6 +14,7 @@ import { addToCart } from '../../../redux/actions/cartAction';
 import FullCategories from '../../custom/FullCatagories.js';
 import { useDispatch } from 'react-redux';
 import '../../../styles/ProductDetails.css';
+import ProductPolicy from './ProductPolicy';
 
 const ProductDetails = () => {
     const { id } = useParams();
@@ -105,6 +106,9 @@ const ProductDetails = () => {
                             </div>
                         </div>
                        </div>
+                   </div>
+                   <div className="product-policy">
+                       <ProductPolicy />
                    </div>
                </div>
             </div>}
