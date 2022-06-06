@@ -4,17 +4,16 @@ import ProductService from '../../../services/Product.service';
 import PreLoader from '../../custom/PreLoader';
 import ProductDetailsSlider from '../../custom/ProductDetailsSlider';
 import { Rating } from '@mui/material';
-import { BsImageFill, BsEyeFill, BsFillHeartFill, BsCartPlusFill} from 'react-icons/bs';
-import { BiCategory } from 'react-icons/bi';
+import { BsImageFill, BsArrowRight} from 'react-icons/bs';
 import { HiCash } from 'react-icons/hi';
 import { GiReturnArrow, GiDeliveryDrone} from 'react-icons/gi';
 import { FiShieldOff} from 'react-icons/fi';
-import { addToWishList } from '../../../redux/actions/wishAction';
 import { addToCart } from '../../../redux/actions/cartAction';
-import FullCategories from '../../custom/FullCatagories.js';
 import { useDispatch } from 'react-redux';
-import '../../../styles/ProductDetails.css';
 import ProductPolicy from './ProductPolicy';
+import SameProducts from './SameProducts';
+import '../../../styles/ProductDetails.css';
+import '../../../styles/SameCategoryProduct.css';
 
 const ProductDetails = () => {
     const { id } = useParams();
@@ -32,6 +31,20 @@ const ProductDetails = () => {
 
     // Product items destructured
     const {brand, categories, color, main_img, detail_img, dimensions, price, product_name, review, weight, inch, material, carry, graphics, processor, type, Model } = productDetails;
+
+    // view same product
+    const [sameProduct, setSameProducts] = useState([]);
+    const [productLoading, setProductLoading] = useState(false);
+    const sameProductCategory = sameProduct.slice(2, 6);
+    useEffect(()=>{
+        setProductLoading(true);
+        ProductService.getCategoryProduct(categories)
+        .then(res => {
+            setSameProducts(res);
+            setProductLoading(false);
+        })
+    },[categories]);
+
     return (
         <div>
             {loading ? <PreLoader />
@@ -107,11 +120,28 @@ const ProductDetails = () => {
                         </div>
                        </div>
                    </div>
+                   {/* product polict */}
                    <div className="product-policy">
                        <ProductPolicy />
                    </div>
                </div>
             </div>}
+                   {/* Same Category product */}
+                   <div className='same-category-area'>
+                       <div className="same-categoru-header">
+                           <h1>Same <span>Category</span> </h1>
+                       </div>
+                    {productLoading ? <PreLoader />
+                        :<div className="same-category-products">
+                            {
+                            sameProductCategory.map((sameProduct) => <SameProducts 
+                            key={sameProduct._id}
+                            sameProduct={sameProduct}
+                            />) 
+                            }
+                        </div>}
+                        <Link className='view-more-category' to={`/catagory/${categories}`}>View More <i><BsArrowRight /></i></Link>
+                   </div>
         </div>
     );
 };
