@@ -98,9 +98,6 @@
 .catagories-drawer-icon{
     margin-right: 10px;
 }
-.e-slider{
-    width: 100%;
-}
 /* Responsive Code */
 @media only screen and (max-width: 950px){
     .header-content{
@@ -122,6 +119,7 @@
         background: #fcb800;
     }
     .header-slider{
-        width: 100%;
+        margin: auto;
+        width: 90%;
     }
 }
