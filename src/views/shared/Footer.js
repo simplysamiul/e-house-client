@@ -17,7 +17,9 @@ import '../../styles/Footer.css';
 const Footer = () => {
     return (
         <div className='footer-area'>
+            <div className="scrool-top">
             <ScrollToTop style={{background: "#0E4D74"}} smooth top="600" color='white'/>
+            </div>
             <div className="footer-container">
                 <div className="footer-header-content" data-aos="fade-up" data-aos-duration="1000">
                 <div className="footer-header">

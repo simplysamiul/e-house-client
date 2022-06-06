@@ -145,6 +145,18 @@
 
 /* Responsive code  */
 @media only screen and (max-width: 650px){
+    .menu-upper-icon{
+        padding-top: 20px;
+    }
+    .menu-upper-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu-search{
+        display: none;
+    }
+    .menu-header{
+        display: none;
+    }
     .menu-header p{
         font-size: 15px;
     }
@@ -152,18 +164,6 @@
         font-size: 8px;
         margin-left: 8px;
         border-radius: 50px;
-    }
-    .menu-upper-content{
-        grid-template-columns: 60% 40%;
-    }
-    .menu-search input{
-        padding: 10px 16px;
-        font-size: 12px; 
-    }
-    .menu-search button{
-        padding: 6px 20px;
-        font-size: 18px;
-        right: 50px;
     }
     .menu-upper-icon a{
         font-size: 18px;
