@@ -136,10 +136,18 @@
 }
 .menu-shopping-cart{
     color: white;
-    font-size: 65px;
+    font-size: 40px;
     font-weight: 500;
-    margin-top: -20px;
+    margin-top: -10px;
     cursor: pointer;
+}
+.added-produt-list-close{
+    margin: 20px 30px;
+    width: 30px;
+    font-size: 26px;
+    border: none;
+    background: none;
+    color: #6e6e6e;
 }
 
 

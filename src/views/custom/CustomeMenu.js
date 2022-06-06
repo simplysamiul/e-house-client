@@ -15,9 +15,7 @@ const CustomeMenu = () => {
                     <Navbar sticky="top" key={expand} expand={expand} className="mb-3">
                     <Container fluid>
                         <Badge color="error" badgeContent={cartList.length} showZero>
-                            <CustomeMenuDrawer 
-                            icon={<BiMenuAltLeft className='menu-shopping-cart' />}
-                            />
+                            <CustomeMenuDrawer />
                         </Badge>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas

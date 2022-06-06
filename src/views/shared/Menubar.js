@@ -12,6 +12,7 @@ import Badge from '@mui/material/Badge';
 import CustomeMenu from '../custom/CustomeMenu';
 import { useSelector } from 'react-redux';
 import '../../styles/Menubar.css';
+import CustomeMenuDrawer from '../custom/CustomeMenuDrawer';
 
 const Menubar = () => {
     const cardList = useSelector((state) => state.cart);
@@ -39,7 +40,7 @@ const Menubar = () => {
                         <Link to="/"><AiFillHeart /></Link>
                         </Badge>
                         <Badge color="error" badgeContent={cardList.length} showZero>
-                        <Link to="/"><GiShoppingBag /></Link>
+                        <CustomeMenuDrawer />
                         </Badge>
                         <div className="profile-link">
                         <Link to="/"><FaUserAlt /></Link>

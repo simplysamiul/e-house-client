@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import {useSelector} from 'react-redux';
 import AddedPrtoductList from './AddedPrtoductList';
 import emptyImg from '../../assets/empty-cart.png';
+import { GiShoppingBag } from 'react-icons/gi';
+import { ImCross } from 'react-icons/im';
 import '../../styles/Menubar.css';
 
 export default function CustomeMenuDrawer({icon}) {
@@ -29,13 +31,14 @@ export default function CustomeMenuDrawer({icon}) {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{icon}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}><GiShoppingBag className='menu-shopping-cart' /></Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
             onOpen={toggleDrawer(anchor, true)}
           >
+            <button className='added-produt-list-close' onClick={toggleDrawer(anchor, false)}><ImCross /></button>
             {addedProducts.length === 0 
             ?<div className='empty-cart'>
               <h1>Your cart is empty</h1>
