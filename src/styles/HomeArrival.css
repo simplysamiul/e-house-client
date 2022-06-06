@@ -35,6 +35,11 @@
 
 
 /* Responsive Code */
+@media only screen and (max-width: 600px){
+    .arrival-banner{
+        display: none;
+    }
+}
 @media only screen and (max-width: 850px){
     .home-arivval-slider{
         display: none;

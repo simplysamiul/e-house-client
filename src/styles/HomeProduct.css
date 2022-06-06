@@ -94,14 +94,8 @@
     .cart-content img{
         height: 120px;
     }
-    .home-products-area{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .discount-product-area{
-        margin: 50px 30px;
-    }
 }
-@media only screen and (max-width: 900px) and (min-width: 601px){
+@media only screen and (max-width: 900px){
     /* Home Product Array */
     .home-products-area{
         grid-template-columns: repeat(2, 1fr);
