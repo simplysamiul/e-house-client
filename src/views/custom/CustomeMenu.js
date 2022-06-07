@@ -2,10 +2,10 @@ import React from 'react';
 import { Container,  Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
-import CustomeMenuDrawer from './CustomeMenuDrawer';
 import { useSelector } from 'react-redux';
-import { BiMenuAltLeft } from 'react-icons/bi';
+import { GiShoppingBag } from 'react-icons/gi';
 import '../../styles/Menubar.css';
+import CustomeMenuDrawer from './CustomeMenuDrawer';
 
 const CustomeMenu = () => {
     const cartList = useSelector((state) => state.cart);

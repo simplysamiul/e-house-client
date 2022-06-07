@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import PriceCart from '../components/PriceCart/PriceCart';
 import PreLoader from '../custom/PreLoader';
 
 
@@ -24,6 +25,7 @@ const Main = () => {
                 <Route path="/shop" element={<ShopPage />} />
                 <Route path="/product_details_:id" element={<ProductDetails />} />
                 <Route path="/catagory/:category" element={<CategoryProducts />} />
+                <Route path="/cart" element={<PriceCart />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/conditions" element={<Condition />} />
                 <Route path="/policy" element={<Condition />} />

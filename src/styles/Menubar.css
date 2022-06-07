@@ -134,9 +134,9 @@
     border-color: white !important;
     background: white !important;
 }
-.menu-shopping-cart{
+.menu-add-cart-list{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     margin-top: -10px;
     cursor: pointer;

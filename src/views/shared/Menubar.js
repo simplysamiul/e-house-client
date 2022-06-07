@@ -2,17 +2,13 @@ import React from 'react';
 import { BiSearchAlt } from 'react-icons/bi';
 import { AiFillHeart } from 'react-icons/ai';
 import { GiShoppingBag } from 'react-icons/gi';
-import { BsTwitter } from 'react-icons/bs';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaPinterestP, FaUserAlt } from 'react-icons/fa';
-import { BsInstagram, BsSlashLg } from 'react-icons/bs';
-import { BsYoutube } from 'react-icons/bs';
+import { FaPinterestP, FaUserAlt, FaFacebookF } from 'react-icons/fa';
+import { BsInstagram, BsSlashLg, BsYoutube, BsTwitter } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import CustomeMenu from '../custom/CustomeMenu';
 import { useSelector } from 'react-redux';
 import '../../styles/Menubar.css';
-import CustomeMenuDrawer from '../custom/CustomeMenuDrawer';
 
 const Menubar = () => {
     const cardList = useSelector((state) => state.cart);
@@ -40,7 +36,7 @@ const Menubar = () => {
                         <Link to="/"><AiFillHeart /></Link>
                         </Badge>
                         <Badge color="error" badgeContent={cardList.length} showZero>
-                        <CustomeMenuDrawer />
+                        <Link to="/cart"><GiShoppingBag /></Link>
                         </Badge>
                         <div className="profile-link">
                         <Link to="/"><FaUserAlt /></Link>

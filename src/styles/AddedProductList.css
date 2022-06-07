@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid lightgray;
+    transition: 0.3s ease-in-out;
+}
+.added-product-list:hover{
+    background: #e4e3e3;
 }
 .added-product-list img{
     width: 80px;

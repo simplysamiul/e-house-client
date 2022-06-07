@@ -2,6 +2,7 @@ import React from 'react';
 import { ImCross } from 'react-icons/im';
 import { useDispatch } from 'react-redux';
 import { removeFromCart } from '../../redux/actions/cartAction';
+import {Link} from 'react-router-dom';
 import '../../styles/AddedProductList.css';
 
 const AddedPrtoductList = ({addedProduct}) => {
@@ -10,7 +11,7 @@ const AddedPrtoductList = ({addedProduct}) => {
     return (
     <>
        <div className='added-product-list'>
-            <img src={main_img} alt="" />
+            <Link to="/cart"><img src={main_img} alt="" /></Link>
             <div className="add-product-price">
             <h5>{product_name}</h5>
             <p>$ {price}</p>
