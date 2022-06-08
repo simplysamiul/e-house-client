@@ -1,0 +1,77 @@
+/* Login */
+.registry-form-area{
+    margin: 0;
+    padding: 60px 150px;
+}
+.registry-form{
+    padding: 60px 20px;
+    border: 2px solid lightgrey;
+    box-shadow: 5px 5px 15px lightgrey;
+    width: 70%;
+    margin: auto;
+}
+.registry-form h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: serif;
+    color: #0E4D74;
+    font-weight: 600;
+}
+.registry-form form input, .registry-submit-button, .google-login-button{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+}
+.registry-form form input, .registry-submit-button{
+    margin-top: 25px;
+}
+.registry-form form input{
+    padding: 8px 12px;
+    font-size: 18px;
+}
+.registry-form form input:focus{
+    outline: none;
+    border: 2px solid #9c9c9c;
+}
+.anotherr-option{
+    margin: 50px 0;
+    text-align: center;
+}
+.registry-submit-button{
+    border: 3px solid #0E4D74;
+    padding: 10px 0;
+    font-size: 20px;
+    background: #3078A6;
+    color: white;
+    font-family: serif;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+.registry-submit-button:hover{
+    background: #0E4D74;
+}
+.google-login-button{
+    border: none;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #8f0707;
+    color: white;
+    padding: 10px 0;
+}
+
+
+/* Responsive Code */
+@media only screen and (max-width: 850px){
+    .registry-form-area{
+        margin: 0;
+        padding: 60px;
+    }
+    .registry-form form input, .registry-submit-button, .google-login-button{
+        width: 80%;
+    }
+    .registry-form{
+        width: 80%;
+    }
+}

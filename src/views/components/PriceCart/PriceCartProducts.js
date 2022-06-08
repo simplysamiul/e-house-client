@@ -11,7 +11,7 @@ const PriceCartProducts = ({img, qty, price, review, product_name, id}) => {
     const dispatch = useDispatch();
     return (
         <div className='single-price-cart-product'>
-           <div data-aos="zoom-in" data-aos-duration="500">
+           <div>
            <img src={img} alt="" />
            </div>
            <div className="price-cart-details">

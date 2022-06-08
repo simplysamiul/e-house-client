@@ -62,3 +62,12 @@
 .shipping-header span{
     color: #fcb800;
 }
+/* Responsive code */
+@media only screen and (max-width: 800px){
+    .shipping-form-container form input, .shipping-info-submit{
+        width: 80%;
+    }
+    .shipping-form-container{
+        margin: 15px 20px;
+    }
+}

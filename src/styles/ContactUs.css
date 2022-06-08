@@ -139,8 +139,11 @@
     .contacdt-info-content p{
         font-size: 16px;
     }
+    .contact-form-title h1{
+        font-size: 22px;
+    }
 }
-@media only screen and (max-width: 1100px) and (min-width: 301px){
+@media only screen and (max-width: 1100px) and (min-width: 501px){
     .contact-info-icon p{
         margin: 10px;
         font-size: 18px;

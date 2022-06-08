@@ -45,9 +45,9 @@ const Menubar = () => {
                         </Badge>
                         <div className="profile-link">
                         <Link to="/"><FaUserAlt /></Link>
-                        <Link className='login' to="/">Login</Link>
+                        <Link className='login' to="/login">Login</Link>
                         <small><BsSlashLg /></small>
-                        <Link className='register' to="/">Register</Link>
+                        <Link className='register' to="/register">Register</Link>
                         </div>
                     </div>
                 </div>
