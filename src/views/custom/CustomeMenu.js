@@ -8,8 +8,9 @@ import CustomeMenuDrawer from './CustomeMenuDrawer';
 
 const CustomeMenu = () => {
     const cartList = useSelector((state) => state.cart);
-    const countReducer = (previous, product) => previous + parseInt(product.qty);
-    const addedCartQty = cartList.reduce( countReducer , 0);
+    const addedCartQty = cartList.reduce((previous, product) => {
+        return !product.qty ? previous === 1 : previous + parseInt(product.qty)
+    } , 0);
     return (
         <div className='custome-menu-area'>
             {['lg'].map((expand) => (

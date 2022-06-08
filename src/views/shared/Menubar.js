@@ -15,8 +15,9 @@ const Menubar = () => {
     const wishList = useSelector((state) =>state.wish);
 
     // Get added cart list
-    const countReducer = (previous, product) => previous + parseInt(product.qty);
-    const addedCartQty = cardList.reduce( countReducer , 0);
+    const addedCartQty = cardList.reduce((previous, product) => {
+        return !product.qty ? previous === 1 : previous + parseInt(product.qty)
+    } , 0);
     return (
         <div className='menu-area'>
             <div className="menu-container">

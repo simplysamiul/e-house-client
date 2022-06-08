@@ -26,6 +26,11 @@ const PriceCart = () => {
     else{
         delivary = 0;
     }
+    // Tax 
+    const tax = (5 / 100) * total;
+    const totalTax = Math.ceil(tax);
+
+
     return (
         <div className='price-cart-area'>
             <div className="price-cart-container">
@@ -70,17 +75,21 @@ const PriceCart = () => {
                             <p>Subtotal : </p>
                             <p>$ {total}</p>
                         </div>
+                        <div className="tax each-total">
+                            <p>Tax:</p>
+                            <p>$ {totalTax}</p>
+                        </div>
                         <div className="delivary each-total">
                             <p>Delivary:</p>
                             <p>$ {delivary}</p>
                         </div>
                         <div className='grant-total'>
                             <p>Total-Price :</p>
-                            <p><span>$ {total + delivary} /-</span> </p>
+                            <p><span>$ {total + totalTax + delivary} /-</span> </p>
                         </div>
-                        <div className="checkout-button">
+                        {addedCarts.length > 0 && <div className="checkout-button">
                             <button>Proceed Check Out</button>
-                        </div>
+                        </div>}
                     </div>
                 </div>
             </div>

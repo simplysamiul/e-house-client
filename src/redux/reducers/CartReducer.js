@@ -4,7 +4,12 @@ export default function cartReducer (state = [], action){
             const existProduct = state.find((product)=> product._id === action.payload._id);
             if(existProduct){
                 const restProduct = state.filter((product) => product._id !== existProduct._id);
-                existProduct.qty = existProduct.qty + 1;
+                if(existProduct.qty){
+                    existProduct.qty = existProduct.qty + 1;
+                }
+                else{
+                    existProduct.qty = 1;
+                }
                 return [...restProduct, action.payload];
             }
             else{
