@@ -8,7 +8,7 @@ import { BiMenuAltLeft } from 'react-icons/bi';
 import { ImCross } from 'react-icons/im';
 import '../../styles/Menubar.css';
 
-export default function CustomeMenuDrawer({icon}) {
+export default function CustomeMenuDrawer() {
   const [state, setState] = React.useState({
     left: false
   });

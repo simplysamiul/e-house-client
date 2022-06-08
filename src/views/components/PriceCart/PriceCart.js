@@ -49,6 +49,7 @@ const PriceCart = () => {
                         }
                     </div>}
                    <div className="price-cart">
+                        <div className="price-cart-table">
                         <table>
                             <tr className='table-heading'>
                                 <th>Qunty</th>
@@ -64,6 +65,7 @@ const PriceCart = () => {
                                     </tr>)
                                 }
                         </table>
+                        </div>
                         <div className="subtotal each-total">
                             <p>Subtotal : </p>
                             <p>$ {total}</p>

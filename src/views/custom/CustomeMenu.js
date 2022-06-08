@@ -3,18 +3,19 @@ import { Container,  Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap
 import { Link, NavLink } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import { useSelector } from 'react-redux';
-import { GiShoppingBag } from 'react-icons/gi';
 import '../../styles/Menubar.css';
 import CustomeMenuDrawer from './CustomeMenuDrawer';
 
 const CustomeMenu = () => {
     const cartList = useSelector((state) => state.cart);
+    const countReducer = (previous, product) => previous + parseInt(product.qty);
+    const addedCartQty = cartList.reduce( countReducer , 0);
     return (
         <div className='custome-menu-area'>
             {['lg'].map((expand) => (
                     <Navbar sticky="top" key={expand} expand={expand} className="mb-3">
                     <Container fluid>
-                        <Badge color="error" badgeContent={cartList.length} showZero>
+                        <Badge color="error" badgeContent={addedCartQty} showZero>
                             <CustomeMenuDrawer />
                         </Badge>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

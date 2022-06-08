@@ -34,7 +34,11 @@
     background: #FCB800;
     color: black;
 }
-
+.price-cart-product{
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 /* Price cart calculiting */
 .price-cart{
     width: 100%;
@@ -108,6 +112,11 @@
     font-family: serif;
     text-align: start;
     transition: 0.3s ease-in-out;
+}
+.price-cart-table{
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .single-price-cart-product:hover{
     background: #e7e7e7;

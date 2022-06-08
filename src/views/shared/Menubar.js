@@ -13,6 +13,10 @@ import '../../styles/Menubar.css';
 const Menubar = () => {
     const cardList = useSelector((state) => state.cart);
     const wishList = useSelector((state) =>state.wish);
+
+    // Get added cart list
+    const countReducer = (previous, product) => previous + parseInt(product.qty);
+    const addedCartQty = cardList.reduce( countReducer , 0);
     return (
         <div className='menu-area'>
             <div className="menu-container">
@@ -35,7 +39,7 @@ const Menubar = () => {
                         <Badge color="error" badgeContent={wishList.length} showZero>    
                         <Link to="/"><AiFillHeart /></Link>
                         </Badge>
-                        <Badge color="error" badgeContent={cardList.length} showZero>
+                        <Badge color="error" badgeContent={addedCartQty} showZero>
                         <Link to="/cart"><GiShoppingBag /></Link>
                         </Badge>
                         <div className="profile-link">
