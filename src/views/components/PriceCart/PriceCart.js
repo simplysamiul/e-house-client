@@ -2,6 +2,7 @@ import React from 'react';
 import {useSelector} from 'react-redux';
 import PriceCartProducts from './PriceCartProducts';
 import emptyImg from '../../../assets/empty-cart.png';
+import {Link} from "react-router-dom";
 import '../../../styles/PriceCart.css';
 
 const PriceCart = () => {
@@ -80,7 +81,7 @@ const PriceCart = () => {
                             <p>$ {totalTax}</p>
                         </div>
                         <div className="delivary each-total">
-                            <p>Delivary:</p>
+                            <p>Delivery:</p>
                             <p>$ {delivary}</p>
                         </div>
                         <div className='grant-total'>
@@ -88,7 +89,7 @@ const PriceCart = () => {
                             <p><span>$ {total + totalTax + delivary} /-</span> </p>
                         </div>
                         {addedCarts.length > 0 && <div className="checkout-button">
-                            <button>Proceed Check Out</button>
+                            <Link to="/shipping"><button>Proceed Check Out</button></Link>
                         </div>}
                     </div>
                 </div>

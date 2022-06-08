@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import PriceCart from '../components/PriceCart/PriceCart';
 import PreLoader from '../custom/PreLoader';
 
 
@@ -9,6 +8,8 @@ const NewProduct = React.lazy(()=> import('../pages/NewProduct'));
 const BestSalesPage = React.lazy(()=> import('../components/bestSales/BestSalesPage'));
 const ProductDetails= React.lazy(()=> import('../components/ProductDetails/ProductDetails'));
 const CategoryProducts = React.lazy(()=> import('../components/CategoryProduct/CategoryProducts'));
+const PriceCart = React.lazy(()=> import('../components/PriceCart/PriceCart'));
+const Shipping = React.lazy(()=> import('../components/Shipping/Shipping'));
 const ShopPage = React.lazy(()=> import('../components/shop/ShopPage'));
 const Faq = React.lazy(()=> import('../components/Faq'));
 const Condition = React.lazy(()=> import('../components/Condition'));
@@ -30,6 +31,7 @@ const Main = () => {
                 <Route path="/conditions" element={<Condition />} />
                 <Route path="/policy" element={<Condition />} />
                 <Route path="/contactus" element={<ContactUs />} />
+                <Route path="/shipping" element={<Shipping />} />
             </Routes>
         </Suspense>
     );
