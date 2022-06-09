@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import Magnifier from "react-magnifier";
 import PreLoader from './PreLoader';
 
 const ProductDetailsSlider = ({main_img,  detail_img, loading}) => {

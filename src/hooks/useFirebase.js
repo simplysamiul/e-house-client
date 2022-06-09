@@ -87,7 +87,7 @@ initializeAuth();
 
 
      // Log Out 
-     const logOut = () =>{
+     export const logOut = () =>{
         // setIsLoading(true);
         signOut(auth)
         .then(()=>{

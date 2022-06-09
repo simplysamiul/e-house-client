@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import {Link} from "react-router-dom";
 import { BsArrowRight } from 'react-icons/bs';
 import '../../../styles/Registar.css';
-import { googleSignIn, createUser, loginUser } from '../../../hooks/useFirebase';
+import { googleSignIn, loginUser } from '../../../hooks/useFirebase';
 
 const Login = () => {
     const { register, handleSubmit, reset } = useForm();
