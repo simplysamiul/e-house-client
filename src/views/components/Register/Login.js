@@ -2,12 +2,14 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import {Link} from "react-router-dom";
 import { BsArrowRight } from 'react-icons/bs';
+import UseFirebase from '../../../hooks/useFirebase';
+import PreLoader from '../../custom/PreLoader.js';
 import '../../../styles/Registar.css';
-import { googleSignIn, loginUser } from '../../../hooks/useFirebase';
+import { Alert } from '@mui/material';
 
 const Login = () => {
     const { register, handleSubmit, reset } = useForm();
-    // const {googleSignIn, isLoading} = useAuth();
+    const {loginUser, googleSignIn, isLoading, error} = UseFirebase();
     const onSubmit = data => {
         console.log(data)
         const email = data.email;
@@ -24,7 +26,8 @@ const Login = () => {
     return (
         <div className='registry-form-area'>
              <div className="registry-form-container">
-               <div className="registry-form">
+               {isLoading ? <PreLoader />
+               :<div className="registry-form">
                     <h1>Login</h1>
                     <form onSubmit={handleSubmit(onSubmit)}>
                     <input placeholder='email' type="email" {...register("email", { required: true })} />
@@ -37,7 +40,8 @@ const Login = () => {
                     <br />
                     <Link to="/register">Create Account <BsArrowRight /></Link>
                  </div>
-                 </div>
+                 {error && <Alert style={{fontSize:"18px"}} severity="error">{error}</Alert>}
+                 </div>}
              </div>
         </div>
     );

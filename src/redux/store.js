@@ -1,9 +1,11 @@
-import { combineReducers, createStore } from "redux";
+import { applyMiddleware, combineReducers, createStore } from "redux";
 import cartReducer from "./reducers/CartReducer";
 import { composeWithDevTools } from 'redux-devtools-extension';
 import wishReducer from "./reducers/wishReducer";
-import { persistStore, persistReducer } from 'redux-persist'
-import storage from 'redux-persist/lib/storage'
+import { persistStore, persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
+import ReduxThunk from 'redux-thunk'
+import { authReducer } from "./reducers/authReducer";
 
 const persistConfig = {
     key: 'root',
@@ -11,9 +13,10 @@ const persistConfig = {
   }
 const rootReducer = combineReducers({
     cart : cartReducer,
-    wish: wishReducer
+    wish: wishReducer,
+    auth: authReducer
 });
 const persistedReducer = persistReducer(persistConfig, rootReducer)
-const store = createStore(persistedReducer, composeWithDevTools());
+const store = createStore(persistedReducer, composeWithDevTools(applyMiddleware(ReduxThunk)));
 export const persistor = persistStore(store);
 export default store;
