@@ -44,7 +44,7 @@ const Menubar = () => {
                         <Link to="/cart"><GiShoppingBag /></Link>
                         </Badge>
                         <div className="profile-link">
-                        <Link to="/"><FaUserAlt /></Link>
+                        <Link to="/login"><FaUserAlt /></Link>
                         <Link className='login' to="/login">Login</Link>
                         <small><BsSlashLg /></small>
                         <Link className='register' to="/register">Register</Link>

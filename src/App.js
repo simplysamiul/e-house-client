@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Provider store={store}>
         <PersistGate loading={<PreLoader />} persistor={persistor}>
-          <BrowserRouter>
+            <BrowserRouter>
               <TheLayout />
             </BrowserRouter>
           </PersistGate>
