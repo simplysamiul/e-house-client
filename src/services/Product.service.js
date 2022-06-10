@@ -1,4 +1,4 @@
-import httpReq from "./http.service";
+import httpReq from "./http.service.js";
 
 class productService {
     async getHomeOfferProduct(){

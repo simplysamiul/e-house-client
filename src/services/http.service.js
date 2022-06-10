@@ -17,7 +17,7 @@ class Request{
         return await instance.post(url, body);
     }
     async update(url, body){
-        return await instance.patch(url, body);
+        return await instance.put(url, body);
     }
     async delete(url){
         return await instance.delete(url);

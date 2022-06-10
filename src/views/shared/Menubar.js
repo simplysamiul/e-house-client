@@ -3,14 +3,17 @@ import { BiSearchAlt } from 'react-icons/bi';
 import { AiFillHeart } from 'react-icons/ai';
 import { GiShoppingBag } from 'react-icons/gi';
 import { FaPinterestP, FaUserAlt, FaFacebookF } from 'react-icons/fa';
-import { BsInstagram, BsSlashLg, BsYoutube, BsTwitter } from 'react-icons/bs';
+import { BsInstagram, BsYoutube, BsTwitter } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import CustomeMenu from '../custom/CustomeMenu';
 import { useSelector } from 'react-redux';
+import UseFirebase from '../../hooks/useFirebase';
 import '../../styles/Menubar.css';
 
 const Menubar = () => {
+    const {logOut, user} = UseFirebase();
+
     const cardList = useSelector((state) => state.cart);
     const wishList = useSelector((state) =>state.wish);
 
@@ -22,7 +25,7 @@ const Menubar = () => {
         <div className='menu-area'>
             <div className="menu-container">
             <div className="menu-header">
-                    <p>Welcome to e-house store !!</p>
+                    <p>Welcome to e-house store !! {user.displayName && <Link className='user-name' to="/">{user.displayName}</Link>}</p>
                     <div className="social-icon">
                         <Link to="/"><BsTwitter /></Link>
                         <Link to="/"><FaFacebookF /></Link>
@@ -44,10 +47,13 @@ const Menubar = () => {
                         <Link to="/cart"><GiShoppingBag /></Link>
                         </Badge>
                         <div className="profile-link">
+                        {!user.email &&
+                        <>
                         <Link to="/login"><FaUserAlt /></Link>
-                        <Link className='login' to="/login">Login</Link>
-                        <small><BsSlashLg /></small>
-                        <Link className='register' to="/register">Register</Link>
+                         <Link className='login' to="/login">Login</Link>
+                         </>
+                         }
+                        {user.email && <button className='logout-button' onClick={() => logOut()}>Log-out</button>}
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,6 @@ const Login = () => {
     const { register, handleSubmit, reset } = useForm();
     const {loginUser, googleSignIn, isLoading, error} = UseFirebase();
     const onSubmit = data => {
-        console.log(data)
         const email = data.email;
         const password = data.pass;
         // login user 

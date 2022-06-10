@@ -16,7 +16,6 @@ const ContactUsForm = () => {
         setSendProgress(true);
         emailjs.sendForm('service_z4e78to', 'template_jk8gkju', form.current, 'user_5J2KF5PBtXsIFEVdAu5UM')
         .then((result) => {
-            console.log(result.text);
           if(result.text){
               reset();
             setSendProgress(false);

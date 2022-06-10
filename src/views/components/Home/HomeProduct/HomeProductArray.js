@@ -14,7 +14,7 @@ const HomeProductArray = () => {
         .then(res => {
             setProducts(res)
             setLoading(false)})
-        .catch((err) => console.log(err))
+        .catch((err) =>{})
     },[]);
     return (
         <div className='discount-product-area'>

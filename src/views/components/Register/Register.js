@@ -11,7 +11,6 @@ const Register = () => {
     const { register, handleSubmit, reset } = useForm();
     const {createUser, googleSignIn, isLoading, error} = UseFirebase();
     const onSubmit = data => {
-        console.log(data);
         const email = data.email;
         const password = data.pass;
         const name = data.name;
@@ -33,7 +32,7 @@ const Register = () => {
                     <input placeholder='FullName' type="text" {...register("name", { required: true, maxLength: 20 })} />
                     <input placeholder='email' type="email" {...register("email", { required: true })} />
                     <input placeholder='password' type="password" {...register("pass")} />
-                    <button className='registry-submit-button' type='submit'>Login</button>
+                    <button className='registry-submit-button' type='submit'>Sign-Up</button>
                     </form>
                  <div className="anotherr-option">
                     <p>--------- or ---------</p>

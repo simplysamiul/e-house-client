@@ -21,8 +21,7 @@ const UseFirebase = () =>{
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             setError("");
-            const newUser = {email, displayName : name}
-            console.log(newUser);
+            const newUser = {email, displayName : name};
             setUser(newUser);
             // user Info in database
             dispatch(register(newUser));
@@ -35,7 +34,6 @@ const UseFirebase = () =>{
           })
           .catch((error)=> {
               const errorMessage = error.message;
-              console.log(errorMessage);
               setError(errorMessage);
           })
           .finally(() => setIsLoading(false))
@@ -48,6 +46,7 @@ const UseFirebase = () =>{
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             setError("");
+            setUser(email);
         })
         .catch((error =>{
             const errorMessage = error.message;
@@ -63,18 +62,16 @@ const UseFirebase = () =>{
         setIsLoading(true);
         signInWithPopup(auth, provider)
         .then((result) =>{
-            const user = result.user;
-            console.log(user);
             setError("");
-            const email = user.email;
-            const name = user.displayName;
+            const email = result.user.email;
+            const name = result.user.displayName;
             const userInfo = {email, name};
+            setUser(userInfo);
             // Save user info In database
             dispatch(googleLogin(userInfo));
         })
         .catch((error) =>{
             setError(error.message);
-            console.log(error.message)
         })
         .finally(() =>  setIsLoading(false))
     }
@@ -99,7 +96,7 @@ const UseFirebase = () =>{
         setIsLoading(true);
         signOut(auth)
         .then(()=>{
-
+            setUser({});
         })
         .catch((error)=>{
 

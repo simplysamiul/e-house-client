@@ -1,4 +1,5 @@
-import httpReq from "./http.service";
+import httpReq from "./http.service.js";
+
 
 class AuthService {
     async userRegister(payload){

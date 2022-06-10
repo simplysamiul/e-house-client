@@ -13,7 +13,7 @@ export const register = (payload) =>{
 export const googleLogin = (payload) =>{
     return (dispatch) =>{
         AuthService.googleRegister(payload)
-        .thenh((user) => dispatch({
+        .then((user) => dispatch({
             type: "user_register_google",
             payload: user
         }))
