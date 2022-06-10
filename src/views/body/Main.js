@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import PreLoader from '../custom/PreLoader';
+import PrivateRoute from '../PrivateRoute/PrivateRoute';
 
 
 const Home = React.lazy(()=> import('../pages/Home'));
@@ -28,12 +29,17 @@ const Main = () => {
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/product_details_:id" element={<ProductDetails />} />
                 <Route path="/catagory/:category" element={<CategoryProducts />} />
-                <Route path="/cart" element={<PriceCart />} />
+                <Route path="/cart" element={ <PriceCart />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/conditions" element={<Condition />} />
                 <Route path="/policy" element={<Condition />} />
                 <Route path="/contactus" element={<ContactUsPage />} />
-                <Route path="/shipping" element={<Shipping />} />
+                <Route path="/shipping" 
+                element={
+                    <PrivateRoute>
+                    <Shipping />
+                    </PrivateRoute>} 
+                />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
             </Routes>

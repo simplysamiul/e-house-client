@@ -8,8 +8,9 @@ import { googleLogin, register } from "../redux/actions/authAction";
 // Initialize firebase app
 initializeAuth();
 
-const UseFirebase = () =>{
+const useAuth = () =>{
     const [user, setUser] = useState({});
+    console.log(user.email);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
     const auth = getAuth();
@@ -116,4 +117,4 @@ const UseFirebase = () =>{
     }
 }
 
-export default UseFirebase;
+export default useAuth;

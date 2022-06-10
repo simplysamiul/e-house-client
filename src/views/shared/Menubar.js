@@ -8,11 +8,11 @@ import { Link } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import CustomeMenu from '../custom/CustomeMenu';
 import { useSelector } from 'react-redux';
-import UseFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 import '../../styles/Menubar.css';
 
 const Menubar = () => {
-    const {logOut, user} = UseFirebase();
+    const {logOut, user} = useAuth();
 
     const cardList = useSelector((state) => state.cart);
     const wishList = useSelector((state) =>state.wish);

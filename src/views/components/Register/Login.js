@@ -2,14 +2,14 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import {Link} from "react-router-dom";
 import { BsArrowRight } from 'react-icons/bs';
-import UseFirebase from '../../../hooks/useFirebase';
+import UseAuth from '../../../hooks/useAuth';
 import PreLoader from '../../custom/PreLoader.js';
 import '../../../styles/Registar.css';
 import { Alert } from '@mui/material';
 
 const Login = () => {
     const { register, handleSubmit, reset } = useForm();
-    const {loginUser, googleSignIn, isLoading, error} = UseFirebase();
+    const {loginUser, googleSignIn, isLoading, error} = UseAuth();
     const onSubmit = data => {
         const email = data.email;
         const password = data.pass;
