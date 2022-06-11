@@ -18,10 +18,6 @@ const Register = () => {
         createUser(email, password, name);
         reset();
     };
-    // Login with google 
-    const handelGoogleLogIn = () =>{
-        googleSignIn();
-    }
     return (
         <div className='registry-form-area'>
              <div className="registry-form-container">
@@ -35,10 +31,8 @@ const Register = () => {
                     <button className='registry-submit-button' type='submit'>Sign-Up</button>
                     </form>
                  <div className="anotherr-option">
-                    <p>--------- or ---------</p>
-                    <button onClick={handelGoogleLogIn}  className='google-login-button'>Login with Google</button>
                     <br />
-                    <Link to="/login">Login <BsArrowRight /></Link>
+                    <Link to="/login">Already have an account ? Login <BsArrowRight /></Link>
                  </div>
                  {error && <Alert style={{fontSize:"18px"}} severity="error">{error}</Alert>}
                  </div>}

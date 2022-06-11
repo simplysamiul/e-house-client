@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import PreLoader from '../custom/PreLoader';
+import ErrorPage from '../pages/ErrorPage';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
 
 
@@ -42,6 +43,7 @@ const Main = () => {
                 />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
+                <Route path="/*" element={<ErrorPage />} />
             </Routes>
         </Suspense>
     );
