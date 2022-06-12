@@ -7,7 +7,6 @@ import '../../../styles/PriceCart.css';
 
 const PriceCart = () => {
     const addedCarts = useSelector((state) => state.cart);
-
     const countReducer = 
     (previous , product) => parseInt(previous) + parseInt(product.price) * parseInt(product.qty);
     const total = addedCarts.reduce( countReducer, 0);

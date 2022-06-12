@@ -6,6 +6,7 @@ import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import ReduxThunk from 'redux-thunk'
 import { authReducer } from "./reducers/authReducer.js";
+import orderReducer from "./reducers/orderReducer";
 
 const persistConfig = {
     key: 'root',
@@ -14,7 +15,8 @@ const persistConfig = {
 const rootReducer = combineReducers({
     cart : cartReducer,
     wish: wishReducer,
-    auth: authReducer
+    auth: authReducer,
+    order: orderReducer
 });
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(persistedReducer, composeWithDevTools(applyMiddleware(ReduxThunk)));

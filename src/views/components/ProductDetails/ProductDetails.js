@@ -12,11 +12,13 @@ import { addToCart } from '../../../redux/actions/cartAction';
 import { useDispatch } from 'react-redux';
 import ProductPolicy from './ProductPolicy';
 import SameProducts from './SameProducts';
+import { useNavigate } from "react-router-dom";
 import '../../../styles/ProductDetails.css';
 import '../../../styles/SameCategoryProduct.css';
 
 const ProductDetails = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const [productDetails, setProductDetails] = useState({});
     const [loading, setLoading] = useState(false);
     const dispatch = useDispatch();
@@ -83,7 +85,6 @@ const ProductDetails = () => {
                             <div className="product-quantity">
                             <input type="number" placeholder='Quantity...' />
                             <div className="order-butto">
-                            <button>Buy Now</button>
                             <button 
                             onClick={()=> dispatch(addToCart(productDetails))} 
                             title='Add to cart'>Add To cart</button>

@@ -18,6 +18,7 @@ const Condition = React.lazy(()=> import('../components/Condition'));
 const ContactUsPage = React.lazy(()=> import('../pages/ContactUsPage'));
 const LoginPage = React.lazy(() => import('../pages/LoginPage'));
 const RegisterPage = React.lazy(() => import('../pages/RegisterPage'));
+const ProceedOrder = React.lazy(() => import('../components/ProceedOrder/ProceedOrder'));
 
 const Main = () => {
     return (
@@ -41,6 +42,7 @@ const Main = () => {
                 {/* Private route manage  */}
                 <Route path="/*" element={<PrivateOutlet />}>
                     <Route path="shipping" element={<Shipping />} />
+                    <Route path="proceed_order" element = {<ProceedOrder />} />
                 </Route>
             </Routes>
         </Suspense>
