@@ -5,6 +5,7 @@ import PreLoader from "../custom/PreLoader";
  const PrivateRoute =  ({children}) =>{
          const {user, isLoading} = useAuth();
          const location = useLocation();
+         console.log(user);
     if(isLoading){
         return <PreLoader />
     }

@@ -13,7 +13,7 @@ const useAuth = () =>{
     const [user, setUser] = useState({});
     const [error, setError] = useState("");
     const dispatch = useDispatch();
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
     const auth = getAuth();
     const navigate = useNavigate();
     
@@ -23,8 +23,10 @@ const useAuth = () =>{
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             setError("");
-            const newUser = {email, displayName: name};
-            setUser(newUser);
+            const userEmail = userCredential.user.email;
+            const userName = userCredential.user.name;
+            const newUser = {email:userEmail , displayName: userName};
+            // setUser(userCredential?.user);
             // user Info in database
             dispatch(register(newUser));
             // send name to the firebase
@@ -33,6 +35,8 @@ const useAuth = () =>{
             })
             .then(() =>{})
             .catch(()=>{})
+            // Redirect to home page after create account
+            navigate("/");
           })
           .catch((error)=> {
               const errorMessage = error.message;
@@ -49,14 +53,9 @@ const useAuth = () =>{
         signInWithEmailAndPassword(auth, email, password )
         .then((userCredential) => {
             setError("");
-            // const destination = location?.state?.from?.pathname || "/";
-            if(location?.state?.from){
-
-                navigate(location?.state?.from, {replace: true});
-            }
-            else{
-                navigate("/");
-            }
+            // Pgae redirect
+            const destination = location?.state?.from || "/";
+                navigate(destination);
         })
         .catch((error =>{
             const errorMessage = error.message;
@@ -76,6 +75,9 @@ const useAuth = () =>{
             const email = result.user.email;
             const name = result.user.displayName;
             const newUser = {email, name};
+            // Pgae redirect
+            const destination = location?.state?.from || "/";
+                navigate(destination);
             // Save user info In database
             dispatch(googleLogin(newUser));
         })
@@ -84,20 +86,6 @@ const useAuth = () =>{
         })
         .finally(() =>  setIsLoading(false))
     }
-
-
-    // Log Out 
-    const logOut = () =>{
-        setIsLoading(true);
-        signOut(auth)
-        .then(()=>{
-            setUser({});
-        })
-        .catch((error)=>{
-
-        })
-        .finally(()=> setIsLoading(false));
-    };
 
 
     // Observer
@@ -113,6 +101,18 @@ const useAuth = () =>{
         return () => unSubscribe;
     }, [auth]);
 
+     // Log Out 
+     const logOut = () =>{
+        setIsLoading(true);
+        signOut(auth)
+        .then(()=>{
+            setUser({});
+        })
+        .catch((error)=>{
+
+        })
+        .finally(()=> setIsLoading(false));
+    };
 
 
 
