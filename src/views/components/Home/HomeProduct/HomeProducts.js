@@ -5,7 +5,7 @@ import { AiOutlineEye } from 'react-icons/ai';
 import { BsHeart, BsCartPlus } from 'react-icons/bs';
 import { addToCart } from '../../../../redux/actions/cartAction';
 import { addToWishList } from '../../../../redux/actions/wishAction';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import '../../../../styles/HomeProduct.css';
 
 const HomeProducts = ({product}) => {

@@ -1,20 +1,19 @@
-import { Navigate, useLocation } from "react-router-dom";
+import { Navigate, Outlet, useLocation } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import PreLoader from "../custom/PreLoader";
 
- const PrivateRoute =  ({children}) =>{
+ const PrivateOutlet =  () =>{
          const {user, isLoading} = useAuth();
          const location = useLocation();
-         console.log(user);
     if(isLoading){
         return <PreLoader />
     }
 
  return (
-                user.email ? children
+                user.email ? <Outlet />
                 : <Navigate to="/login" replace state = {{from : location}} />
         )
    
 };
 
-export default PrivateRoute;
+export default PrivateOutlet;

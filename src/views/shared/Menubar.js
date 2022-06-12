@@ -13,7 +13,6 @@ import '../../styles/Menubar.css';
 
 const Menubar = () => {
     const {logOut, user} = useAuth();
-    console.log(user);
     const cardList = useSelector((state) => state.cart);
     const wishList = useSelector((state) =>state.wish);
 

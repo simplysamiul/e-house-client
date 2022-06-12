@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import PreLoader from '../custom/PreLoader';
 import ErrorPage from '../pages/ErrorPage';
-import PrivateRoute from '../PrivateRoute/PrivateRoute';
+import PrivateOutlet from '../PrivateRoute/PrivateOutlet';
 
 
 const Home = React.lazy(()=> import('../pages/Home'));
@@ -35,15 +35,13 @@ const Main = () => {
                 <Route path="/conditions" element={<Condition />} />
                 <Route path="/policy" element={<Condition />} />
                 <Route path="/contactus" element={<ContactUsPage />} />
-                <Route path="/shipping" 
-                element={
-                    <PrivateRoute>
-                    <Shipping />
-                    </PrivateRoute>} 
-                />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
                 <Route path="/*" element={<ErrorPage />} />
+                {/* Private route manage  */}
+                <Route path="/*" element={<PrivateOutlet />}>
+                    <Route path="shipping" element={<Shipping />} />
+                </Route>
             </Routes>
         </Suspense>
     );

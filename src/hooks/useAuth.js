@@ -23,10 +23,8 @@ const useAuth = () =>{
         createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             setError("");
-            const userEmail = userCredential.user.email;
-            const userName = userCredential.user.name;
-            const newUser = {email:userEmail , displayName: userName};
-            // setUser(userCredential?.user);
+            const newUser = {email, displayName: name};
+            setUser(newUser);
             // user Info in database
             dispatch(register(newUser));
             // send name to the firebase
@@ -37,6 +35,7 @@ const useAuth = () =>{
             .catch(()=>{})
             // Redirect to home page after create account
             navigate("/");
+            window.location.reload();
           })
           .catch((error)=> {
               const errorMessage = error.message;
