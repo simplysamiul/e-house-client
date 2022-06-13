@@ -1,12 +1,13 @@
-export const addOrder = (payload) => {
+export const addToOrder = (payload) =>{
+    console.log(payload)
     return{
-        type:"Add_ORDER_INFO",
-        payload : payload
+        type:"ADD_TO_ORDER",
+        payload
     }
 };
-export const removeOrder = (email) =>{
+export const removeFromOrder = (payload) =>{
     return{
-        type:"REMOVE_ORDER_INFO",
-        payload: email
+        type: "REMOVE_FROM_ORDER",
+        payload
     }
-}
+};

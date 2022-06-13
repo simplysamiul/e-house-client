@@ -16,7 +16,7 @@ const rootReducer = combineReducers({
     cart : cartReducer,
     wish: wishReducer,
     auth: authReducer,
-    order: orderReducer
+    finalorder : orderReducer
 });
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 const store = createStore(persistedReducer, composeWithDevTools(applyMiddleware(ReduxThunk)));

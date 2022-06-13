@@ -19,6 +19,7 @@ const ContactUsPage = React.lazy(()=> import('../pages/ContactUsPage'));
 const LoginPage = React.lazy(() => import('../pages/LoginPage'));
 const RegisterPage = React.lazy(() => import('../pages/RegisterPage'));
 const ProceedOrder = React.lazy(() => import('../components/ProceedOrder/ProceedOrder'));
+const Payment = React.lazy(() => import('../components/Payment/Payment'));
 
 const Main = () => {
     return (
@@ -43,6 +44,7 @@ const Main = () => {
                 <Route path="/*" element={<PrivateOutlet />}>
                     <Route path="shipping" element={<Shipping />} />
                     <Route path="proceed_order" element = {<ProceedOrder />} />
+                    <Route path="payment" element = {<Payment />} />
                 </Route>
             </Routes>
         </Suspense>

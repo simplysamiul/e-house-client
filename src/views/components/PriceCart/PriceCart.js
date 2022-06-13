@@ -29,7 +29,8 @@ const PriceCart = () => {
     // Tax 
     const tax = (5 / 100) * total;
     const totalTax = Math.ceil(tax);
-
+    // Grand total
+    const grandTotal = total + totalTax + delivary;
 
     return (
         <div className='price-cart-area'>
@@ -74,18 +75,6 @@ const PriceCart = () => {
                         <div className="subtotal each-total">
                             <p>Subtotal : </p>
                             <p>$ {total}</p>
-                        </div>
-                        <div className="tax each-total">
-                            <p>Tax:</p>
-                            <p>$ {totalTax}</p>
-                        </div>
-                        <div className="delivary each-total">
-                            <p>Delivery:</p>
-                            <p>$ {delivary}</p>
-                        </div>
-                        <div className='grant-total'>
-                            <p>Total-Price :</p>
-                            <p><span>$ {total + totalTax + delivary} /-</span> </p>
                         </div>
                         {addedCarts.length > 0 && <div className="checkout-button">
                             <Link to="/shipping"><button>Proceed Check Out</button></Link>

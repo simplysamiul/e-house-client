@@ -1,16 +1,29 @@
 import React, { useState } from 'react';
 import { useForm } from "react-hook-form";
+import { useNavigate } from 'react-router-dom';
 import PreLoader from '../../custom/PreLoader';
+import OrderService from '../../../services/Order.Service';
+import useAuth from '../../../hooks/useAuth';
 import '../../../styles/Shipping.css';
 
 const Shipping = () => {
     const { register, handleSubmit, reset } = useForm();
     const [loading, setLoading] = useState(false);
+    const navigate = useNavigate();
+    const {user} = useAuth();
+    const email = user.email;
     const onSubmit = data => {
         setLoading(true);
-        console.log(data);
+        data.email = email;
+        OrderService.shippingInfo(data)
+        .then(res => {
+            setLoading(false);
+            navigate("/proceed_order")
+        })
+        .catch(err => {
+            console.log(err);
+        })
         reset();
-        setLoading(false);
     };
     
     return (

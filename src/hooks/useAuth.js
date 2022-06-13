@@ -47,7 +47,6 @@ const useAuth = () =>{
 
     // Login user
     const loginUser = (email, password, location) =>{
-        console.log(location);
         setIsLoading(true);
         signInWithEmailAndPassword(auth, email, password )
         .then((userCredential) => {
