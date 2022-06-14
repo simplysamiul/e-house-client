@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { useState } from 'react';
+import PaymentServices from '../../../services/Payment.Service';
 
 const CheckoutForm = ({orderInfo}) => {
     const {grandTotal, name, email} = orderInfo;
+    const [clientSecret, setClientSecret] = useState("");
     const stripe = useStripe();
     const elements = useElements();
     const [error, setError] = useState('');
+    useEffect(()=>{
+        PaymentServices.postStripeInfo(grandTotal)
+        .then(res => console.log(res))
+    },[grandTotal]);
 
     const handleSubmit = async (e) =>{
         e.preventDefault();

@@ -12,13 +12,11 @@ import { addToCart } from '../../../redux/actions/cartAction';
 import { useDispatch } from 'react-redux';
 import ProductPolicy from './ProductPolicy';
 import SameProducts from './SameProducts';
-import { useNavigate } from "react-router-dom";
 import '../../../styles/ProductDetails.css';
 import '../../../styles/SameCategoryProduct.css';
 
 const ProductDetails = () => {
     const { id } = useParams();
-    const navigate = useNavigate();
     const [productDetails, setProductDetails] = useState({});
     const [loading, setLoading] = useState(false);
     const dispatch = useDispatch();

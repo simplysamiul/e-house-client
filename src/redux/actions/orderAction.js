@@ -1,5 +1,4 @@
 export const addToOrder = (payload) =>{
-    console.log(payload)
     return{
         type:"ADD_TO_ORDER",
         payload

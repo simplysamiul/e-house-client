@@ -3,12 +3,12 @@ import {useDispatch, useSelector} from 'react-redux';
 import emptyImg from '../../../assets/empty-cart.png';
 import {Link} from "react-router-dom";
 import PriceCartProducts from '../PriceCart/PriceCartProducts';
-import '../../../styles/PriceCart.css';
 import useAuth from '../../../hooks/useAuth';
-import { useEffect } from 'react';
-import OrderService from '../../../services/Order.Service';
+import { useNavigate } from "react-router-dom";
 import PreLoader from '../../custom/PreLoader';
 import { addToOrder } from '../../../redux/actions/orderAction';
+import PaymentServices from '../../../services/Payment.Service';
+import '../../../styles/PriceCart.css';
 
 const ProceedOrder = () => {
     const addedCarts = useSelector((state) => state.cart);
@@ -38,10 +38,17 @@ const ProceedOrder = () => {
     const grandTotal = total + totalTax + delivary;
 
    const dispatch = useDispatch();
+   const navigate = useNavigate();
    const {user} = useAuth();
    const email = user.email;
    const name = user.displayName; 
 
+    const handelFinalOrder = () =>{
+        PaymentServices.postPaymentInfo({grandTotal, email, name})
+        .then(res => console.log(res))
+        dispatch(addToOrder({grandTotal, email, name}))
+        navigate("/payment");
+    }
 
     return (
         <div className='price-cart-area'>
@@ -100,7 +107,7 @@ const ProceedOrder = () => {
                             <p><span>$ {grandTotal} /-</span> </p>
                         </div>
                         {addedCarts.length > 0 && <div className="checkout-button">
-                            <Link to="/payment"><button onClick={()=> dispatch(addToOrder({grandTotal, email, name}))}>Proceed To Order</button></Link>
+                            <button onClick={handelFinalOrder}>Proceed To Order</button>
                         </div>}
                     </div>
                 </div>

@@ -9,7 +9,7 @@ import PreLoader from '../../custom/PreLoader';
 
 const Register = () => {
     const { register, handleSubmit, reset } = useForm();
-    const {createUser, googleSignIn, isLoading, error} = useAuth();
+    const {createUser, isLoading, error} = useAuth();
     const onSubmit = data => {
         const email = data.email;
         const password = data.pass;
