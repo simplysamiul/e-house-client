@@ -4,17 +4,17 @@ import Button from '@mui/material/Button';
 import {useSelector} from 'react-redux';
 import AddedPrtoductList from './AddedPrtoductList';
 import emptyImg from '../../assets/empty-cart.png';
-import { BiMenuAltLeft } from 'react-icons/bi';
+import { AiFillHeart  } from 'react-icons/ai';
 import { ImCross } from 'react-icons/im';
 import '../../styles/Menubar.css';
 
-export default function CustomeMenuDrawer() {
+export default function WishListProduct() {
   const [state, setState] = React.useState({
     left: false
   });
 
   // get added product
-  const addedProducts = useSelector((state) => state.cart);
+  const addedProducts = useSelector((state) => state.wish);
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -29,9 +29,9 @@ export default function CustomeMenuDrawer() {
   };
   return (
     <div>
-      {['left'].map((anchor) => (
+      {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}><BiMenuAltLeft className='menu-add-cart-list' /></Button>
+          <Button onClick={toggleDrawer(anchor, true)}><AiFillHeart className='wish-cart-list' /></Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
@@ -49,7 +49,7 @@ export default function CustomeMenuDrawer() {
               addedProducts.map((addedProduct)=> <AddedPrtoductList 
               key={addedProduct._id}
               addedProduct={addedProduct}
-              cartClick = "add"
+              cartClick = "wish"
               /> )
             }
             </div>}

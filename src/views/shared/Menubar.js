@@ -1,6 +1,5 @@
 import React from 'react';
 import { BiSearchAlt } from 'react-icons/bi';
-import { AiFillHeart } from 'react-icons/ai';
 import { GiShoppingBag } from 'react-icons/gi';
 import { FaPinterestP, FaUserAlt, FaFacebookF } from 'react-icons/fa';
 import { BsInstagram, BsYoutube, BsTwitter } from 'react-icons/bs';
@@ -10,6 +9,7 @@ import CustomeMenu from '../custom/CustomeMenu';
 import { useSelector } from 'react-redux';
 import useAuth from '../../hooks/useAuth';
 import '../../styles/Menubar.css';
+import WishListProduct from '../custom/WishListProduct';
 
 const Menubar = () => {
     const {logOut, user} = useAuth();
@@ -40,7 +40,7 @@ const Menubar = () => {
                     </div>
                     <div className="menu-upper-icon">
                         <Badge color="error" badgeContent={wishList.length} showZero>    
-                        <Link to="/"><AiFillHeart /></Link>
+                        <WishListProduct />
                         </Badge>
                         <Badge color="error" badgeContent={addedCartQty} showZero>
                         <Link to="/cart"><GiShoppingBag /></Link>

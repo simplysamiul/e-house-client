@@ -153,6 +153,13 @@
     margin-top: -10px;
     cursor: pointer;
 }
+.wish-cart-list{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -10px;
+    cursor: pointer;
+}
 .added-produt-list-close{
     margin: 20px 30px;
     width: 30px;
