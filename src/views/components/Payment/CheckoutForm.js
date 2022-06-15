@@ -1,19 +1,20 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
-import { useState } from 'react';
-import PaymentServices from '../../../services/Payment.Service';
+import { useDispatch } from 'react-redux';
+import { clearCart } from '../../../redux/actions/cartAction';
+import { clearWishList } from '../../../redux/actions/wishAction';
+import { Alert } from '@mui/material';
+import {useNavigate} from 'react-router-dom';
+import '../../../styles/CheckoutForm.css';
 
 const CheckoutForm = ({orderInfo}) => {
-    const {grandTotal, name, email} = orderInfo;
-    const [clientSecret, setClientSecret] = useState("");
+    const {grandTotal} = orderInfo;
     const stripe = useStripe();
     const elements = useElements();
     const [error, setError] = useState('');
-    useEffect(()=>{
-        PaymentServices.postStripeInfo(grandTotal)
-        .then(res => console.log(res))
-    },[grandTotal]);
-
+    const [success, setSuccess] = useState('');
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
     const handleSubmit = async (e) =>{
         e.preventDefault();
         if(!stripe || !elements){
@@ -30,17 +31,26 @@ const CheckoutForm = ({orderInfo}) => {
         });
         if(error){
             setError(error.message);
+            setSuccess('');
         }
         else{
             setError("");
-            console.log(paymentMethod)
+            setSuccess('Your payment process is successfull !');
         }
+        dispatch(clearCart());
+        dispatch(clearWishList());
+        setTimeout(() => {
+            navigate("/");
+        }, 5000);
 
     }
     return (
-        <div>
-            <form onSubmit={handleSubmit}>
+        <>
+           <div className="payment-form-container">
+            <div className="payment-form">
+            <form className={success ? 'form-display' : ""} onSubmit={handleSubmit}>
                 <CardElement
+                className='payment-option'
                     options={{
                     style: {
                         base: {
@@ -56,12 +66,15 @@ const CheckoutForm = ({orderInfo}) => {
                     },
                     }}
                 />
-                <button type="submit" disabled={!stripe}>
-                    Pay $ {grandTotal}
+                <button className='stripe-payment-button' type="submit" disabled={!stripe}>
+                    Pay : $ {grandTotal}
                 </button>
             </form>
-            {error && <p>{error}</p>}
-        </div>
+            </div>
+           </div>
+            {error && <Alert severity="error">{error} !</Alert>}
+            {success && <Alert severity="success">{success}</Alert>}
+        </>
     );
 };
 

@@ -10,3 +10,9 @@ export function removeFromWishList(id){
         id
     }
 };
+
+export function clearWishList(){
+    return{
+        type : "CLEAR_WISH_LIST"
+    }
+};

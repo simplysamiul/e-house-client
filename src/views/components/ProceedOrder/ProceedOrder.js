@@ -45,7 +45,7 @@ const ProceedOrder = () => {
 
     const handelFinalOrder = () =>{
         PaymentServices.postPaymentInfo({grandTotal, email, name})
-        .then(res => console.log(res))
+        .then(res => {})
         dispatch(addToOrder({grandTotal, email, name}))
         navigate("/payment");
     }

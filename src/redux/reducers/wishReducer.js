@@ -6,6 +6,9 @@ export default function wishReducer (state=[], action){
         case 'remove_from_wish_list':{
             return state.filter((item)=> item._is !== action.id)
         }
+        case 'CLEAR_WISH_LIST':{
+            return [];
+        }
         default:
             return state;
     }

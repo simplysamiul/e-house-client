@@ -5,6 +5,8 @@ import PreLoader from '../../custom/PreLoader';
 import { loadStripe } from '@stripe/stripe-js';
 import CheckoutForm from './CheckoutForm';
 import { Elements } from '@stripe/react-stripe-js';
+import stripeImg from '../../../assets/stripe.png';
+import '../../../styles/CheckoutForm.css';
 
 
 
@@ -18,12 +20,12 @@ const Payment = () => {
     })
 
     return (
-        <div>
-           {!orderInfo ? <PreLoader /> 
+       <div className='payment-area'>
+             <div className='payment-container'>
+            {!orderInfo ? <PreLoader /> 
            : <div>
             <div>
-                <h1>{orderInfo.name}</h1>
-                <p>$ {orderInfo.grandTotal}</p>
+                <img className='stripe-logo' src={stripeImg} alt="" />
             </div>
                 <Elements stripe={stripePromise}>
                     <CheckoutForm 
@@ -32,6 +34,7 @@ const Payment = () => {
                 </Elements>
            </div>}
         </div>
+       </div>
     );
 };
 
