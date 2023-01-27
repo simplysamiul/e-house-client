@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import emptyImg from '../../../assets/empty-cart.png';
-import {Link} from "react-router-dom";
 import PriceCartProducts from '../PriceCart/PriceCartProducts';
 import useAuth from '../../../hooks/useAuth';
 import { useNavigate } from "react-router-dom";
-import PreLoader from '../../custom/PreLoader';
 import { addToOrder } from '../../../redux/actions/orderAction';
 import PaymentServices from '../../../services/Payment.Service';
 import '../../../styles/PriceCart.css';
