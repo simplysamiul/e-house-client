@@ -2,10 +2,10 @@ import axios from "axios";
 
 
 const axiosConfig = {
-    baseURL: process.env.REACT_APP_API_BASE_URL,
-    timeout: 20000
-    // headers: {'X-Custom-Header': 'foobar'}
-  };
+  baseURL: process.env.REACT_APP_API_BASE_URL, //https://e-house-server.up.railway.app
+  timeout: 20000,
+  // headers: {'X-Custom-Header': 'foobar'}
+};
 const instance  = axios.create(axiosConfig);
 
 
